@@ -1,0 +1,2585 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Salon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-06 08:12+0900\n"
+"PO-Revision-Date: 2014-08-06 08:12+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_c;_x\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: salon-booking\n"
+
+#: salon-booking/salon.php:156
+#: salon-booking/src/page/booking_mobile-page.php:611
+msgid "Log Out"
+msgstr ""
+
+#: salon-booking/salon.php:315 salon-booking/salon.php:1160
+msgid "zip"
+msgstr ""
+
+#: salon-booking/salon.php:316 salon-booking/salon.php:1162
+#: salon-booking/src/comp/staff-component.php:112
+msgid "address"
+msgstr ""
+
+#: salon-booking/salon.php:317 salon-booking/src/comp/search-component.php:22
+#: salon-booking/src/data/salon-data.php:759
+msgid "tel"
+msgstr ""
+
+#: salon-booking/salon.php:318 salon-booking/src/comp/search-component.php:22
+msgid "mobile"
+msgstr ""
+
+#: salon-booking/salon.php:390
+msgid "Salon Maintenance"
+msgstr ""
+
+#: salon-booking/salon.php:393
+msgid "Customer Info"
+msgstr ""
+
+#: salon-booking/salon.php:398
+#: salon-booking/src/comp/position-component.php:41
+#: salon-booking/src/page/item-page.php:250
+msgid "Menu Information"
+msgstr ""
+
+#: salon-booking/salon.php:403
+#: salon-booking/src/comp/position-component.php:42
+#: salon-booking/src/page/staff-page.php:502
+msgid "Staff Information"
+msgstr ""
+
+#: salon-booking/salon.php:408
+#: salon-booking/src/comp/position-component.php:43
+#: salon-booking/src/page/branch-page.php:235
+msgid "Shop Information"
+msgstr ""
+
+#: salon-booking/salon.php:413
+#: salon-booking/src/comp/position-component.php:44
+#: salon-booking/src/page/config-page.php:189
+msgid "Environment Setting"
+msgstr ""
+
+#: salon-booking/salon.php:416 salon-booking/src/page/mail-page.php:119
+msgid "Mail Setting"
+msgstr ""
+
+#: salon-booking/salon.php:422
+#: salon-booking/src/comp/position-component.php:45
+#: salon-booking/src/page/position-page.php:178
+msgid "Position Information"
+msgstr ""
+
+#: salon-booking/salon.php:427
+#: salon-booking/src/comp/position-component.php:52
+#: salon-booking/src/page/log-page.php:133
+msgid "View Log"
+msgstr ""
+
+#: salon-booking/salon.php:433
+msgid "Salon Management"
+msgstr ""
+
+#: salon-booking/salon.php:436
+#: salon-booking/src/comp/position-component.php:46
+#: salon-booking/src/page/reservation-page.php:431
+msgid "Reservation Regist"
+msgstr ""
+
+#: salon-booking/salon.php:441
+#: salon-booking/src/comp/position-component.php:47
+#: salon-booking/src/page/sales-page.php:451
+#: salon-booking/src/page/sales-page.php:470
+msgid "Performance Regist"
+msgstr ""
+
+#: salon-booking/salon.php:446
+#: salon-booking/src/comp/position-component.php:48
+#: salon-booking/src/page/working-page.php:512
+msgid "Time Card"
+msgstr ""
+
+#: salon-booking/salon.php:451
+#: salon-booking/src/comp/position-component.php:50
+#: salon-booking/src/page/basic-page.php:253
+msgid "Basic Information"
+msgstr ""
+
+#: salon-booking/salon.php:487
+msgid ""
+"You can register the existing client not yet a registered member or update "
+"the clinet. "
+msgstr ""
+
+#: salon-booking/salon.php:488 salon-booking/src/page/salon-page.php:1784
+#: salon-booking/src/page/salon-page.php:1975
+msgid "User Login"
+msgstr ""
+
+#: salon-booking/salon.php:488
+msgid ""
+"Supposing the Login Name is the same with Mail Address, any ID could be "
+"accepted so long as it is Sole and Unique within the site."
+msgstr ""
+
+#: salon-booking/salon.php:489 salon-booking/salon.php:500
+#: salon-booking/salon.php:519 salon-booking/salon.php:532
+#: salon-booking/salon.php:549 salon-booking/salon.php:560
+#: salon-booking/salon.php:573 salon-booking/salon.php:582
+#: salon-booking/salon.php:600 salon-booking/salon.php:612
+#: salon-booking/salon.php:623 salon-booking/salon.php:636
+#: salon-booking/salon.php:652
+msgid "Content"
+msgstr ""
+
+#: salon-booking/salon.php:497 salon-booking/src/page/salon-page.php:1848
+msgid "Required Time(minutes)"
+msgstr ""
+
+#: salon-booking/salon.php:497
+msgid ""
+"When a customer has reserved, this plugin used to calculate the end time "
+"automatically.Please enter in minutes."
+msgstr ""
+
+#: salon-booking/salon.php:498 salon-booking/src/page/salon-page.php:1854
+msgid "Price"
+msgstr ""
+
+#: salon-booking/salon.php:498
+msgid ""
+"When a customer has reserved, this plugin used to calculate the price "
+"automatically."
+msgstr ""
+
+#: salon-booking/salon.php:507
+msgid ""
+"If you register as a staff here, you will become also a user of \"Word Press"
+"\". If you are already registered to the Word Press with the authority of "
+"contributor or upper, you will be on the list of the staffs here.However, "
+"you are not still registered yet as a staff, you have to add the user "
+"information after the selection, and you can use the function as a staff "
+"just by the plug in. "
+msgstr ""
+
+#: salon-booking/salon.php:509 salon-booking/salon.php:528
+#: salon-booking/src/page/salon-page.php:2035
+#: salon-booking/src/page/salon-page.php:2041
+msgid "The Maximum Number of the Redundant Reservations"
+msgstr ""
+
+#: salon-booking/salon.php:509
+msgid ""
+"Set the number of redundant reservations a staff can handle at the same "
+"timeframe.Normally the number should be zero, but could it be 1 if the staff "
+"should have an assistant and serve duplicate clients at the same time. Of "
+"course highly capable staff may also select 3, or 4."
+msgstr ""
+
+#: salon-booking/salon.php:510
+msgid "Addition/Update of Photograph"
+msgstr ""
+
+#: salon-booking/salon.php:512
+msgid ""
+"Drag & drop of  a photograph of the staff  into \"Photos of staff member\" "
+"area."
+msgstr ""
+
+#: salon-booking/salon.php:513
+msgid ""
+"Multiple photographs are allowed.When a customer clicks a photograph part of "
+"\"the reservation screen\",registered multiple photographs displayed "
+"sequentially. (only as for the PC)"
+msgstr ""
+
+#: salon-booking/salon.php:514
+msgid ""
+"The first photograph is displayed in the \"the reservation screen\". Drag & "
+"drop the order of  photographs."
+msgstr ""
+
+#: salon-booking/salon.php:515
+msgid ""
+"When you change or add the photograph, do not forget to click the button "
+"\"Update\"."
+msgstr ""
+
+#: salon-booking/salon.php:527 salon-booking/src/page/branch-page.php:244
+msgid "Please copy and paste this tag to insert to the page"
+msgstr ""
+
+#: salon-booking/salon.php:527
+msgid ""
+"This field should be inserted to the fixed page as it reads, then the "
+"reservation screen will be displayed."
+msgstr ""
+
+#: salon-booking/salon.php:528
+msgid ""
+"By entering the number, you can set the maximum number of the reservations "
+"to coop cooperate with simultaneously by each shop. If the staff serves to "
+"only one client full time one on one, set the number as zero."
+msgstr ""
+
+#: salon-booking/salon.php:529 salon-booking/src/page/salon-page.php:1842
+msgid "Unit of Time (minutes)"
+msgstr ""
+
+#: salon-booking/salon.php:529
+msgid ""
+"Time unit is selectable for the clients when making reservation. If unit 15 "
+"is designated, then the time is selectable from 10:00, 10:15 and so on. If "
+"30 is selected, 10:00, 10:30, and so, for example."
+msgstr ""
+
+#: salon-booking/salon.php:530 salon-booking/src/page/salon-page.php:1872
+msgid "Regular Closing Day"
+msgstr ""
+
+#: salon-booking/salon.php:530
+msgid ""
+"You can nominate a regular closing day of the week by the unit of week. If "
+"you open the shop on regular closing day or you close the shop on business "
+"day, you have to set it on the screen of \"Basic Information\" under \"Salon "
+"Maintenance\"."
+msgstr ""
+
+#: salon-booking/salon.php:541 salon-booking/src/page/salon-page.php:1889
+msgid "Number of the Shops"
+msgstr ""
+
+#: salon-booking/salon.php:541
+msgid ""
+"Select \"plural shops\", if the Salon holds more than one shop and has the "
+"need to have an independent reservation page for each shop."
+msgstr ""
+
+#: salon-booking/salon.php:542 salon-booking/src/page/salon-page.php:1895
+msgid "Approval of the Login by the Clients"
+msgstr ""
+
+#: salon-booking/salon.php:542
+msgid ""
+"If you want the columns for user ID and the password be displayed, on the "
+"screen of Reservation, check mark the column of  \"approve the client’s login"
+"\". This is the function not required if the same function is provided by "
+"other means like sidebars and so."
+msgstr ""
+
+#: salon-booking/salon.php:543 salon-booking/src/page/salon-page.php:1901
+msgid "Opration Log Setting"
+msgstr ""
+
+#: salon-booking/salon.php:543
+msgid ""
+"Check the mark \"Opration Log Setting\" to recorded the opration of \"Add\","
+"\"Update\" or \"Delete\" to log file."
+msgstr ""
+
+#: salon-booking/salon.php:544 salon-booking/src/page/salon-page.php:1907
+msgid "Automatic Deletion"
+msgstr ""
+
+#: salon-booking/salon.php:544
+msgid ""
+"Check the mark \"automatic deletion\"to mask the personal information like "
+"names and phone numbers after the designated month since the reservation "
+"date. This is daily updated automatically at midnight. "
+msgstr ""
+
+#: salon-booking/salon.php:545 salon-booking/src/page/salon-page.php:1913
+msgid "Months when to delete "
+msgstr ""
+
+#: salon-booking/salon.php:545
+msgid ""
+"Enter the designated months ahead of the reservation date by number in the "
+"column of  \"months when to delete\". This column is only valid when you "
+"check marked the column of  \"automatic deletion\".  "
+msgstr ""
+
+#: salon-booking/salon.php:546 salon-booking/src/page/salon-page.php:1919
+msgid "Display Details at messages"
+msgstr ""
+
+#: salon-booking/salon.php:546
+msgid ""
+"By check marking the column of  \"Display Details\", the detailed "
+"information of the errors will be displayed. If you want the errors be "
+"analyzed, this should b e presented to the analyzer.  "
+msgstr ""
+
+#: salon-booking/salon.php:552 salon-booking/src/page/salon-page.php:1950
+msgid "Staff Holiday Settings"
+msgstr ""
+
+#: salon-booking/salon.php:552
+msgid ""
+"If you select \"unable to enter when holidays\" , clients cannot make "
+"reservation on the holidays of the designated staff. If the staff select "
+"\"unable to enter other than when attendant\", clients can only reserve "
+"where the staff registers as attendant on the \"timecard\" screen under the "
+"\"Salon Management\". You may select \"unable to enter other than when "
+"attendant\"\"if you could register your attendance and the absence correctly "
+"in advance, however you are strongly recommended to choose \"unable to enter "
+"when holidays\" on daily operations.  　　　  "
+msgstr ""
+
+#: salon-booking/salon.php:553 salon-booking/src/page/salon-page.php:1956
+msgid "Sequence of Sur Name and Given Name"
+msgstr ""
+
+#: salon-booking/salon.php:553
+msgid ""
+"This is the selection of the sequence of Sur Name and Given Name. Select "
+"\"Sur Name first\"  mainly for Japanese and Chinese. \"Given Name first\" is "
+"another choice. "
+msgstr ""
+
+#: salon-booking/salon.php:554 salon-booking/src/page/salon-page.php:1962
+msgid "No Designation of Staff"
+msgstr ""
+
+#: salon-booking/salon.php:554
+msgid ""
+"If you allow the reservation without nomination of a certain staff, check "
+"the column. If you do not mark the column, it means the designation of any "
+"staffs becomes mandatory for any clients and may not recommend since the "
+"prospect clients may confuse."
+msgstr ""
+
+#: salon-booking/salon.php:555 salon-booking/src/page/salon-page.php:1968
+msgid "Maintenance staff member include staff"
+msgstr ""
+
+#: salon-booking/salon.php:555
+msgid "If you allow Maintenance staff member include staff, check the column."
+msgstr ""
+
+#: salon-booking/salon.php:556 salon-booking/src/page/salon-page.php:2157
+msgid "Mobile screen use"
+msgstr ""
+
+#: salon-booking/salon.php:556
+msgid ""
+"If you use the screen of mobiles and pc, check the column. If you do not "
+"mark the column, it means that on smart phone such as \"iphone\" pc screen "
+"displays. "
+msgstr ""
+
+#: salon-booking/salon.php:557 salon-booking/src/page/salon-page.php:2048
+msgid "past X days"
+msgstr ""
+
+#: salon-booking/salon.php:557
+msgid ""
+"This column is used to select the range of the days extracted from the data "
+"base of the reservation and the actual performance to view as a list. The "
+"criteria of X day are the day you currently operate the system. If you "
+"choose a large numerical value for the X to enter, the response time of the "
+"system may slow down. So, please make the X according to the situation and "
+"the need of the shop. (E.g. the reservation is full for another 1 year, or "
+"one month is enough for it, or else) "
+msgstr ""
+
+#: salon-booking/salon.php:563 salon-booking/src/page/salon-page.php:2054
+msgid "X days ahead"
+msgstr ""
+
+#: salon-booking/salon.php:563
+msgid ""
+"<br>This column is used to select the range of the days extracted from the "
+"data base of the reservation and the actual performance to view as a list. "
+"The criteria of X day are the day you currently operate the system. If you "
+"choose a large numerical value for the X to enter, the response time of the "
+"system may slow down. So, please make the X according to the situation and "
+"the need of the shop. (E.g. the reservation is full for another 1 year, or "
+"one month is enough for it, or else) "
+msgstr ""
+
+#: salon-booking/salon.php:564 salon-booking/src/page/salon-page.php:2124
+msgid "Mail from"
+msgstr ""
+
+#: salon-booking/salon.php:564
+msgid ""
+"\tIf you use original \"from\" of  Mail header fields, fill in this field "
+"using \"Name<mail address>\" formats."
+msgstr ""
+
+#: salon-booking/salon.php:565 salon-booking/src/page/salon-page.php:2135
+msgid "Mail return path"
+msgstr ""
+
+#: salon-booking/salon.php:565
+msgid ""
+"\tIf you use original \"return path\" of  Mail header fields, fill in this "
+"field."
+msgstr ""
+
+#: salon-booking/salon.php:566
+msgid "Number of the staffs displayed"
+msgstr ""
+
+#: salon-booking/salon.php:566
+msgid ""
+"This is the screen showing staffs for the reservation. Recommend the number "
+"you enter to be 3 to 6 around, for the better visual appealing.  "
+msgstr ""
+
+#: salon-booking/salon.php:567 salon-booking/src/page/salon-page.php:1931
+msgid "The Content of the Mail to Confirming Notice to the Client"
+msgstr ""
+
+#: salon-booking/salon.php:567
+msgid ""
+"When responding to the clients of without registration as a member, if you "
+"put [X-TO_NAME] and [X-TO_SALON] into the contents of the confirmation mail, "
+"which will be displayed as the name of the client and the shop automatically "
+"and sent to the client.  "
+msgstr ""
+
+#: salon-booking/salon.php:568 salon-booking/src/page/salon-page.php:1940
+msgid ""
+"The Content of the Mail to respond to the Client newly registered as a Member"
+msgstr ""
+
+#: salon-booking/salon.php:568
+msgid ""
+"This is the model contents of the mail to the client who checked \"register "
+"as a member\"on the screen of Reservation Confirmation. In this notice mail, "
+"the password for the client is also included. "
+msgstr ""
+
+#: salon-booking/salon.php:569 salon-booking/src/page/salon-page.php:2197
+msgid "Default load tab"
+msgstr ""
+
+#: salon-booking/salon.php:569
+msgid ""
+"If you change the load default tab at \"Reservation Screen\",select \"Staff"
+"\",\"Month\",\"Week\" or  \"Day\". "
+msgstr ""
+
+#: salon-booking/salon.php:570 salon-booking/src/page/salon-page.php:2230
+msgid "Deadline of reservations"
+msgstr ""
+
+#: salon-booking/salon.php:570
+msgid ""
+"How many days or hours is the deadline of reservation.If you set 0, "
+"cancellation of the start time just before it is possible"
+msgstr ""
+
+#: salon-booking/salon.php:591
+msgid ""
+"You can select the functions according to the position of the staffs you "
+"selected. All the functions are set as default according to each position. "
+"Check with the screen what can be handled by each position from part time "
+"worker to the President. For example, part timers are set only capable of "
+"reservation registration as a default, and if you think a certain part timer "
+"be allowed to use the function of \"TimeCard\", then check here to activate "
+"the function. "
+msgstr ""
+
+#: salon-booking/salon.php:593 salon-booking/src/page/salon-page.php:1680
+msgid "Role"
+msgstr ""
+
+#: salon-booking/salon.php:595
+msgid ""
+"If you check marking the \"Authority of Management\", then you can operate "
+"also information of other shops."
+msgstr ""
+
+#: salon-booking/salon.php:596
+msgid ""
+"If you check marking the \"Time Card (full members)\", you can access all "
+"the information on attendances and the absences of all the staffs in your "
+"shop, so take caution in operating the system."
+msgstr ""
+
+#: salon-booking/salon.php:607
+msgid ""
+"It displays all the reservation for \"X days ahead\" from an operation day."
+msgstr ""
+
+#: salon-booking/salon.php:609
+msgid "Existing Clients"
+msgstr ""
+
+#: salon-booking/salon.php:609
+msgid ""
+"If the client is a member, select either by \"Mail\"  or by \"Phone\" , and "
+"the name of the client, then click the \"Search\" button. If the client, for "
+"example, is Taro YAMAMOTO, input minimum letters like \"YAMA\" in the \"Name"
+"\" column, then all the clients whose name have \"YAMA\" letters within "
+"their names are all listed up on the screen. If you select from the list by "
+"whom the reservation was made, then the screen returns back to the screen of "
+"Reservation Register with the rest of the information related to the client "
+"is already filled in."
+msgstr ""
+
+#: salon-booking/salon.php:610
+msgid "Newly acquired Clients"
+msgstr ""
+
+#: salon-booking/salon.php:610
+msgid ""
+"As for new clients, the input of \"Mail\" or \"Phone\" is mandatory. "
+"Confirming the client of the will to join as a member, check the column of "
+"\"Register as a Member\" . The name for the login  could be either the Mail "
+"Address if the address is set in the column of \"Mail\", or the Phone No. of "
+"the \"Phone\" column with eliminating the symbol mark of \" - \" inserted "
+"among the phone number if the client has no email address. The Password "
+"initially assigned is the same with the login Name. Notice to the client the "
+"Login Name and tentative Password, and recommend change the password "
+"immediately to what the client created."
+msgstr ""
+
+#: salon-booking/salon.php:619
+#, php-format
+msgid ""
+"The Screen shows the list of all the reservation from \"past X days\" to an "
+"operation day.<br>Select the reservations as was actually performed, and "
+"register as required. Modify or update the columns where the letters are "
+"with blue colored since the data are transferred there from the reservation."
+"<br><font color=\"green\">Using this \"performance\" data, additional "
+"functions like accountings and statistics will be available in near future,"
+"probably.....</font><a href=\"%s\" target=\"_blank\">Please tell me if you "
+"have any good ideas about that.</a>"
+msgstr ""
+
+#: salon-booking/salon.php:619
+msgid "https://salon.mallory.jp/en/?page_id=16"
+msgstr ""
+
+#: salon-booking/salon.php:621 salon-booking/src/page/sales-page.php:486
+msgid "Register without Reservation"
+msgstr ""
+
+#: salon-booking/salon.php:621
+msgid ""
+"If you mark the column, the screen is displayed almost same with the "
+"\"Reservation Register\" under \"Salon Management\" automatically. Use this "
+"screen for the performance input without reservation."
+msgstr ""
+
+#: salon-booking/salon.php:630
+msgid ""
+"Set the working schedule of staffs. With the role of \"TimeCard(Full "
+"Members)\", the system displays all the staffs belonging to the shop."
+msgstr ""
+
+#: salon-booking/salon.php:632
+msgid "New Registration"
+msgstr ""
+
+#: salon-booking/salon.php:632
+msgid ""
+"Double click the date column on when you want register, or display the "
+"detailed screen by dragging the attendant hour and dropping it onto the "
+"leaving hour. And check mark either the column of \"Regular Duty\", \"Absent"
+"\", \"Delay\", \"Leave Early\" or \"Holiday Shift\"."
+msgstr ""
+
+#: salon-booking/salon.php:633
+msgid "Update/Delete"
+msgstr ""
+
+#: salon-booking/salon.php:633
+msgid ""
+"By double clicking the column of the already registered, display the detail "
+"list and update the data and/or delete."
+msgstr ""
+
+#: salon-booking/salon.php:634
+msgid "Copy and Paste"
+msgstr ""
+
+#: salon-booking/salon.php:634
+msgid ""
+"Click the column of already registered and select which data be copied and "
+"pasted.Push down the \"CTRL\" and the \"C\" keys of PC at the same time to "
+"copy, and after clicking the date where to be pasted, push again down the "
+"\"CTRL\" and the \"V\" keys simultaneously."
+msgstr ""
+
+#: salon-booking/salon.php:643
+msgid ""
+"The mandatory input items are almost same with those of \"Shop Information\"."
+"<br>Those cases namely to open specially on the regular holidays or take "
+"special absence for the trainings should be input at the \"Basic Information"
+"\" under \"Shop Management\",which operations are only valid for staff of "
+"the shop who logged in."
+msgstr ""
+
+#: salon-booking/salon.php:645 salon-booking/src/page/basic-page.php:100
+#: salon-booking/src/page/salon-page.php:1866
+msgid "Irregular Open/Closing day"
+msgstr ""
+
+#: salon-booking/salon.php:647
+msgid ""
+"After setting the date, select the reason either of \"On Business\" or "
+"\"Special Absence\", and click the button of \"Add\"."
+msgstr ""
+
+#: salon-booking/salon.php:648
+msgid ""
+"It is possible to input data of the year other than that of currently "
+"operating, and if you want to confirm of the information on other year, "
+"click the button of \"Display Again\" after setting the designated year."
+msgstr ""
+
+#: salon-booking/salon.php:669
+msgid "Button"
+msgstr ""
+
+#: salon-booking/salon.php:670
+msgid "http://salon.mallory.jp/en/wp-content/uploads/2013/06/12_BUTTON.png"
+msgstr ""
+
+#: salon-booking/salon.php:672
+msgid ""
+"\"Add\" and \"Update\" signify the addition and Updating of the information "
+"related."
+msgstr ""
+
+#: salon-booking/salon.php:673
+msgid "\"Clear\" does literally clear the detailed input columns."
+msgstr ""
+
+#: salon-booking/salon.php:674
+msgid ""
+"\"Show Details\" and \"Hide Details\" execute display and hide the detailed "
+"information by each."
+msgstr ""
+
+#: salon-booking/salon.php:679
+msgid "Part of Input Details"
+msgstr ""
+
+#: salon-booking/salon.php:680
+msgid ""
+"It is not displayed at the initial status. To display, you have to click the "
+"button of \"Display Details\" or click the \"Select\" from the list."
+msgstr ""
+
+#: salon-booking/salon.php:683
+msgid "Listing"
+msgstr ""
+
+#: salon-booking/salon.php:683
+msgid "http://salon.mallory.jp/en/wp-content/uploads/2013/06/13_OPRATION.png"
+msgstr ""
+
+#: salon-booking/salon.php:686
+msgid ""
+"It displays the list of Information. By clicking the button of \"Select\" in "
+"the operation column, information designated is updated. If you want to "
+"delete, click the button of \"Delete\" in the operation column. The "
+"information is deleted accordingly<br>The button of \"up\" or \"down\" on "
+"the Seq column is showing the order of item like staff or menus on the "
+"screen of \"Reservation Detail."
+msgstr ""
+
+#: salon-booking/salon.php:690
+msgid "Common interface"
+msgstr ""
+
+#: salon-booking/salon.php:698
+msgid ""
+"<a href=\"http://salon.mallory.jp/en/?page_id=80\" target=\"_blank"
+"\">Documentation</a>"
+msgstr ""
+
+#: salon-booking/salon.php:699
+msgid ""
+"<a href=\"https://salon.mallory.jp/en/?page_id=8\" target=\"_blank\">Sample</"
+"a>"
+msgstr ""
+
+#: salon-booking/salon.php:700
+msgid "user id : demologin<br>password : demo001"
+msgstr ""
+
+#: salon-booking/salon.php:884
+msgid "Reservation Confirm"
+msgstr ""
+
+#: salon-booking/salon.php:1153
+msgid "SAMPLE SHOP NAME"
+msgstr ""
+
+#: salon-booking/salon.php:1153
+msgid "SAMPLE SHOOP ADDRESS"
+msgstr ""
+
+#: salon-booking/salon.php:1154
+msgid "SAMPLE MENU CUT"
+msgstr ""
+
+#: salon-booking/salon.php:1154
+msgid "30,50"
+msgstr ""
+
+#: salon-booking/salon.php:1155
+msgid "SAMPLE MENU PERM"
+msgstr ""
+
+#: salon-booking/salon.php:1155
+msgid "90,100"
+msgstr ""
+
+#: salon-booking/salon.php:1164 salon-booking/salon.php:1166
+msgid "999-999-999"
+msgstr ""
+
+#: salon-booking/salon.php:1175 salon-booking/salon.php:1184
+msgid "PRESIDENT"
+msgstr ""
+
+#: salon-booking/salon.php:1176 salon-booking/salon.php:1185
+msgid "DIRECTER"
+msgstr ""
+
+#: salon-booking/salon.php:1177 salon-booking/salon.php:1186
+msgid "SHOP MANAGER"
+msgstr ""
+
+#: salon-booking/salon.php:1178 salon-booking/salon.php:1187
+msgid "CHIEF"
+msgstr ""
+
+#: salon-booking/salon.php:1179 salon-booking/salon.php:1188
+msgid "STAFF"
+msgstr ""
+
+#: salon-booking/salon.php:1180 salon-booking/salon.php:1189
+msgid "TEMPORARY"
+msgstr ""
+
+#: salon-booking/salon.php:1181 salon-booking/salon.php:1190
+#: salon-booking/src/page/salon-page.php:460
+msgid "MAINTENANCE"
+msgstr ""
+
+#: salon-booking/salon.php:1181 salon-booking/salon.php:1190
+msgid "this data can not delete or update"
+msgstr ""
+
+#: salon-booking/src/control/salon-control.php:44
+msgid "invalid request"
+msgstr ""
+
+#: salon-booking/src/control/salon-control.php:51
+msgid "no class file"
+msgstr ""
+
+#: salon-booking/src/control/salon-control.php:54
+msgid "no class "
+msgstr ""
+
+#: salon-booking/src/comp/confirm-component.php:29
+#: salon-booking/src/comp/salon-component.php:131
+#: salon-booking/src/page/booking-page.php:145
+#: salon-booking/src/page/booking_pc-page.php:54
+#: salon-booking/src/page/salon-page.php:707
+#: salon-booking/src/page/booking_mobile-page.php:15
+#: salon-booking/src/page/booking_mobile-page.php:16
+#: salon-booking/src/page/booking_mobile-page.php:716
+msgid "Anyone"
+msgstr ""
+
+#: salon-booking/src/comp/confirm-component.php:31
+#: salon-booking/src/page/confirm-edit.php:58
+msgid "reservation completed"
+msgstr ""
+
+#: salon-booking/src/comp/confirm-component.php:32
+msgid "reservation temporary"
+msgstr ""
+
+#: salon-booking/src/comp/confirm-component.php:33
+#: salon-booking/src/page/confirm-edit.php:59
+msgid "reservation deleted"
+msgstr ""
+
+#: salon-booking/src/comp/confirm-component.php:34
+msgid "no status"
+msgstr ""
+
+#: salon-booking/src/comp/confirm-component.php:59
+msgid "registerd by confirm process"
+msgstr ""
+
+#: salon-booking/src/comp/booking-component.php:86
+msgid "registerd by reservation process(booking)"
+msgstr ""
+
+#: salon-booking/src/comp/booking-component.php:149
+msgid "to confirmed reservation form"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:139
+msgid "result not registerd"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:153
+msgid "result registerd"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:157
+#: salon-booking/src/page/booking_pc-page.php:570
+msgid "tentative"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:160
+#: salon-booking/src/page/booking_pc-page.php:573
+msgid "completed"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:273
+#: salon-booking/src/page/booking-page.php:669
+#: salon-booking/src/page/booking_pc-page.php:689
+msgid "today this staff can not be reserved "
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:280
+#: salon-booking/src/comp/salon-component.php:286
+#: salon-booking/src/page/booking-page.php:671
+#: salon-booking/src/page/booking_pc-page.php:691
+msgid "this staff can not be reserved in this time range"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:307
+msgid "staff"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:351
+msgid "branch"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:386
+#, php-format
+msgid "%s normal end"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:389
+#, php-format
+msgid "%s error !!"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:392
+#: salon-booking/src/page/customer-page.php:74
+#: salon-booking/src/page/customer-page.php:141
+#: salon-booking/src/page/staff-page.php:205
+#: salon-booking/src/page/staff-page.php:330
+msgid "this user not registerd"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:395
+#, php-format
+msgid "this staff not registerd[%s] "
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:398
+#, php-format
+msgid "sorry! under maintenance[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:401
+#, php-format
+msgid "sorry! this page not displayed %s"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:404
+#, php-format
+msgid "user data is differented %s"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:407
+#, php-format
+msgid "%s an unexpected error has occurred %s"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:410
+#, php-format
+msgid "sorry! this page not displayed. checks cookies on ? %s "
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:413
+#, php-format
+msgid ""
+"this branch_cd[%d] can't find.Please check set short code format. [salon-"
+"booking] or if multi shop [salon-booking branch_cd=XX]. "
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:416
+msgid "this branch has no staff "
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:419
+#, php-format
+msgid "This reservation has expired. [%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:422
+#, php-format
+msgid "%s required[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:425
+#, php-format
+msgid "%s this is not time data[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:428
+#, php-format
+msgid "%s numeric input please[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:434
+#, php-format
+msgid "%s zip code XXXXX-XXXX input please[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:437
+#, php-format
+msgid "%s Telephone XXXX-XXX-XXXX input please[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:440
+#, php-format
+msgid "%s XXX@XXX.XXX input please[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:443
+#, php-format
+msgid "%s MM/DD/YYYY or MMDDYYYY input please[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:446
+#, php-format
+msgid "%s this day not exist?[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:449
+#, php-format
+msgid "%s space input between fires-name and last-name[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:452
+#, php-format
+msgid "%s within %d characters[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:455
+#: salon-booking/src/page/booking_pc-page.php:734
+msgid "your reservation is duplicated"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:458
+msgid "an unexpected error has occurred"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:461
+#, php-format
+msgid "this data is unacceptble.Bug?[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:464
+#, php-format
+msgid "database error [%s][%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:467
+#, php-format
+msgid "create userid error [%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:470
+#, php-format
+msgid "file open error[%s]"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:473
+msgid "file write error"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:476
+msgid "target data not found"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:479
+#, php-format
+msgid "e-mail could not be sent %s"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:486
+msgid "already reservation existed, so you can't day off"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:489
+#, php-format
+msgid ""
+"already reservation existed .this %s can reserve %s reservations at same "
+"time range,please update datas "
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:492
+msgid "already [User Login] existed."
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:495
+msgid ""
+"already user data existed.Please change the value of [mail] or [tel] or "
+"[mobile] "
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:498
+msgid "when demo site ,can't insert,update and delete."
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:501
+#, php-format
+msgid ""
+"Customer is registerd.\n"
+"User Login : %s\n"
+"Password : %s"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:504
+msgid "when demo site ,can't delete."
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:507
+msgid "message not found"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:572
+#: salon-booking/src/page/salon-page.php:2399
+msgid "(?<month>\\d{1,2})[\\/\\.\\-](?<day>\\d{1,2})[\\/\\.\\-](?<year>\\d{4})"
+msgstr ""
+
+#: salon-booking/src/comp/salon-component.php:573
+#: salon-booking/src/page/salon-page.php:2400
+msgid "(?<month>\\d{2})(?<day>\\d{2})(?<year>\\d{4})"
+msgstr ""
+
+#: salon-booking/src/comp/search-component.php:17
+#: salon-booking/src/page/salon-page.php:1107
+msgid "close"
+msgstr ""
+
+#: salon-booking/src/comp/search-component.php:22
+#: salon-booking/src/page/salon-page.php:804
+msgid "No"
+msgstr ""
+
+#: salon-booking/src/comp/search-component.php:22
+#: salon-booking/src/data/salon-data.php:769
+#: salon-booking/src/page/confirm-page.php:68
+msgid "name"
+msgstr ""
+
+#: salon-booking/src/comp/search-component.php:22
+#: salon-booking/src/data/salon-data.php:756
+msgid "mail"
+msgstr ""
+
+#: salon-booking/src/comp/sales-component.php:47
+msgid "registed result without reservation"
+msgstr ""
+
+#: salon-booking/src/comp/sales-component.php:61
+msgid "registerd by result register process"
+msgstr ""
+
+#: salon-booking/src/comp/position-component.php:39
+msgid "Reservation"
+msgstr ""
+
+#: salon-booking/src/comp/position-component.php:40
+#: salon-booking/src/page/customer-page.php:240
+msgid "Customer Information"
+msgstr ""
+
+#: salon-booking/src/comp/position-component.php:49
+msgid "Time Card(full members)"
+msgstr ""
+
+#: salon-booking/src/comp/position-component.php:51
+msgid "Authoriy of Management"
+msgstr ""
+
+#: salon-booking/src/comp/staff-component.php:109
+#: salon-booking/src/comp/customer-component.php:65
+#: salon-booking/src/page/salon-page.php:1540
+msgid "first name"
+msgstr ""
+
+#: salon-booking/src/comp/staff-component.php:109
+#: salon-booking/src/comp/staff-component.php:110
+#: salon-booking/src/comp/staff-component.php:112
+#: salon-booking/src/comp/staff-component.php:117
+#: salon-booking/src/comp/customer-component.php:64
+#: salon-booking/src/comp/customer-component.php:65
+#: salon-booking/src/comp/customer-component.php:71
+#: salon-booking/src/data/salon-data.php:728
+#: salon-booking/src/data/salon-data.php:729
+#: salon-booking/src/data/salon-data.php:730
+#: salon-booking/src/data/salon-data.php:731
+#: salon-booking/src/page/salon-page.php:435
+#: salon-booking/src/page/salon-page.php:458
+msgid "not registered"
+msgstr ""
+
+#: salon-booking/src/comp/staff-component.php:110
+#: salon-booking/src/comp/customer-component.php:64
+msgid "last name"
+msgstr ""
+
+#: salon-booking/src/comp/staff-component.php:239
+#: salon-booking/src/comp/staff-component.php:242
+msgid "PHOTO IMAGE CAN'T COPY"
+msgstr ""
+
+#: salon-booking/src/comp/customer-component.php:71
+msgid "registerd salon "
+msgstr ""
+
+#: salon-booking/src/comp/photo-component.php:83
+#: salon-booking/src/data/salon-data.php:1029
+msgid "NO PHOTO DATA"
+msgstr ""
+
+#: salon-booking/src/comp/photo-component.php:88
+#: salon-booking/src/data/salon-data.php:1034
+#: salon-booking/src/data/salon-data.php:1102
+msgid "PHOTO DATA CAN'T DELETE"
+msgstr ""
+
+#: salon-booking/src/comp/reservation-component.php:37
+#, php-format
+msgid "price:%d"
+msgstr ""
+
+#: salon-booking/src/comp/reservation-component.php:48
+msgid "registerd by reservation process"
+msgstr ""
+
+#: salon-booking/src/comp/download-component.php:71
+msgid "branch_name"
+msgstr ""
+
+#: salon-booking/src/comp/download-component.php:74
+#: salon-booking/src/page/working-page.php:548
+#: salon-booking/src/page/booking-page.php:816
+#: salon-booking/src/page/basic-page.php:99
+#: salon-booking/src/page/booking_pc-page.php:870
+#: salon-booking/src/page/salon-page.php:1802
+#: salon-booking/src/page/salon-page.php:2005
+#: salon-booking/src/page/salon-page.php:2067
+#: salon-booking/src/page/salon-page.php:2145
+#: salon-booking/src/page/salon-page.php:2585
+#: salon-booking/src/page/salon-page.php:2593
+#: salon-booking/src/page/booking_mobile-page.php:669
+msgid "Date"
+msgstr ""
+
+#: salon-booking/src/data/confirm-data.php:19
+#: salon-booking/src/data/basic-data.php:23
+#: salon-booking/src/data/log-data.php:21
+#: salon-booking/src/data/salon-data.php:345
+#: salon-booking/src/data/salon-data.php:353
+#: salon-booking/src/data/salon-data.php:401
+#: salon-booking/src/data/salon-data.php:409
+#, php-format
+msgid "%%m/%%d/%%Y"
+msgstr ""
+
+#: salon-booking/src/data/staff-data.php:140
+#: salon-booking/src/data/staff-data.php:141
+#: salon-booking/src/data/salon-data.php:125
+#: salon-booking/src/data/salon-data.php:126
+#: salon-booking/src/page/booking-page.php:524
+#: salon-booking/src/page/booking_pc-page.php:531
+#: salon-booking/src/page/salon-page.php:939
+#: salon-booking/src/page/salon-page.php:2584
+#: salon-booking/src/page/salon-page.php:2592
+#: salon-booking/src/page/booking_mobile-page.php:336
+msgid "%m/%d/%Y"
+msgstr ""
+
+#: salon-booking/src/data/basic-data.php:21
+#: salon-booking/src/page/basic-edit.php:51
+msgid "special holiday"
+msgstr ""
+
+#: salon-booking/src/data/basic-data.php:22
+#: salon-booking/src/page/basic-edit.php:52
+#: salon-booking/src/page/salon-page.php:1054
+msgid "on business"
+msgstr ""
+
+#: salon-booking/src/data/salon-data.php:41
+msgid ""
+"Mr/Ms {X-TO_NAME} \n"
+"Please confirm this reservation.Click the following URL\n"
+"{X-URL}\n"
+"\n"
+"{X-SHOP_NAME}\n"
+"{X-SHOP_ADDRESS}\n"
+"{X-SHOP_TEL}\n"
+"{X-SHOP_MAIL}"
+msgstr ""
+
+#: salon-booking/src/data/salon-data.php:42
+msgid ""
+"Mr/Ms {X-TO_NAME} \n"
+"Thank you for the registration.\n"
+"your User_id is {X-USER_ID},\n"
+"your initial password is {X-PASSWORD}\n"
+"\n"
+"{X-SHOP_NAME}\n"
+"{X-SHOP_ADDRESS}\n"
+"{X-SHOP_TEL}\n"
+"{X-SHOP_MAIL}"
+msgstr ""
+
+#: salon-booking/src/data/salon-data.php:45
+msgid "Confirm Reservation"
+msgstr ""
+
+#: salon-booking/src/data/salon-data.php:46
+msgid "Your registration is completed"
+msgstr ""
+
+#: salon-booking/src/data/salon-data.php:756
+#: salon-booking/src/data/salon-data.php:759
+#: salon-booking/src/data/salon-data.php:769
+#, php-format
+msgid " old[%s] new[%s]"
+msgstr ""
+
+#: salon-booking/src/page/working-page.php:194
+msgid "copy["
+msgstr ""
+
+#: salon-booking/src/page/working-page.php:358
+#: salon-booking/src/page/working-page.php:561
+#: salon-booking/src/page/reservation-page.php:450
+#: salon-booking/src/page/booking-page.php:527
+#: salon-booking/src/page/booking-page.php:850
+#: salon-booking/src/page/basic-page.php:282
+#: salon-booking/src/page/position-page.php:180
+#: salon-booking/src/page/customer-page.php:243
+#: salon-booking/src/page/booking_pc-page.php:535
+#: salon-booking/src/page/booking_pc-page.php:906
+#: salon-booking/src/page/item-page.php:252
+#: salon-booking/src/page/branch-page.php:238
+#: salon-booking/src/page/staff-page.php:504
+msgid "Add"
+msgstr ""
+
+#: salon-booking/src/page/working-page.php:362
+#: salon-booking/src/page/reservation-page.php:451
+#: salon-booking/src/page/booking-page.php:532
+#: salon-booking/src/page/basic-page.php:255
+#: salon-booking/src/page/position-page.php:181
+#: salon-booking/src/page/customer-page.php:244
+#: salon-booking/src/page/booking_pc-page.php:540
+#: salon-booking/src/page/item-page.php:253
+#: salon-booking/src/page/branch-page.php:239
+#: salon-booking/src/page/staff-page.php:505
+msgid "Update"
+msgstr ""
+
+#: salon-booking/src/page/working-page.php:419
+#: salon-booking/src/page/working-page.php:422
+msgid "in_time or out_time is duplicated "
+msgstr ""
+
+#: salon-booking/src/page/working-page.php:439
+#: salon-booking/src/page/working-get-data.php:56
+msgid "DAY_OFF"
+msgstr ""
+
+#: salon-booking/src/page/working-page.php:546
+#: salon-booking/src/page/sales-page.php:491
+#: salon-booking/src/page/salon-page.php:1602
+#: salon-booking/src/page/salon-page.php:1613
+#: salon-booking/src/page/salon-page.php:2586
+#: salon-booking/src/page/salon-page.php:2594
+msgid "Name"
+msgstr ""
+
+#: salon-booking/src/page/working-page.php:559
+#: salon-booking/src/page/booking-page.php:848
+#: salon-booking/src/page/booking_pc-page.php:904
+#: salon-booking/src/page/booking_mobile-page.php:659
+#: salon-booking/src/page/booking_mobile-page.php:788
+msgid "Close"
+msgstr ""
+
+#: salon-booking/src/page/working-page.php:560
+#: salon-booking/src/page/booking-page.php:849
+#: salon-booking/src/page/booking_pc-page.php:905
+#: salon-booking/src/page/booking_mobile-page.php:789
+#: salon-booking/src/page/staff-page.php:145
+msgid "Delete"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:210
+msgid "result del"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:210
+msgid "result delete?"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:287
+#: salon-booking/src/page/reservation-page.php:299
+#: salon-booking/src/page/position-page.php:89
+#: salon-booking/src/page/customer-page.php:131
+#: salon-booking/src/page/salon-page.php:182
+#: salon-booking/src/page/item-page.php:147
+#: salon-booking/src/page/branch-page.php:79
+#: salon-booking/src/page/branch-page.php:146
+#: salon-booking/src/page/staff-page.php:292
+#: salon-booking/src/page/log-page.php:52
+#: salon-booking/src/page/log-page.php:111
+msgid "Hide Details"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:315
+#: salon-booking/src/page/reservation-page.php:315
+msgid "please input start time"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:323
+msgid "please input end time"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:330
+msgid "end time is earlier then start time"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:471
+msgid "Performance Update"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:472
+#: salon-booking/src/page/reservation-page.php:452
+#: salon-booking/src/page/position-page.php:182
+#: salon-booking/src/page/customer-page.php:245
+#: salon-booking/src/page/item-page.php:254
+#: salon-booking/src/page/branch-page.php:240
+#: salon-booking/src/page/staff-page.php:506
+msgid "Clear"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:476
+msgid "day before"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:477
+msgid "week before"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:478
+msgid "month before"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:479
+msgid "year before"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:482
+#: salon-booking/src/page/reservation-page.php:462
+#: salon-booking/src/page/basic-page.php:258
+#: salon-booking/src/page/log-page.php:139
+msgid "Redisplay"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:483
+#: salon-booking/src/page/reservation-page.php:463
+msgid "Download"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:493
+msgid "Reserved day"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:495
+msgid "Reserved staff"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:497
+msgid "Reserved menu"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:499
+#: salon-booking/src/page/salon-page.php:2589
+msgid "Wishes"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:501
+#: salon-booking/src/page/booking_pc-page.php:872
+#: salon-booking/src/page/salon-page.php:2164
+msgid "Status"
+msgstr ""
+
+#: salon-booking/src/page/sales-page.php:507
+#: salon-booking/src/page/reservation-page.php:470
+#: salon-booking/src/page/booking-page.php:823
+#: salon-booking/src/page/booking_pc-page.php:879
+msgid "Search"
+msgstr ""
+
+#: salon-booking/src/page/reservation-page.php:456
+msgid "day after"
+msgstr ""
+
+#: salon-booking/src/page/reservation-page.php:457
+msgid "week after"
+msgstr ""
+
+#: salon-booking/src/page/reservation-page.php:458
+msgid "month after"
+msgstr ""
+
+#: salon-booking/src/page/reservation-page.php:459
+msgid "year after"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:198
+#: salon-booking/src/page/booking_pc-page.php:121
+#: salon-booking/src/page/salon-page.php:1185
+#: salon-booking/src/page/booking_mobile-page.php:46
+#: salon-booking/src/page/booking_mobile-page.php:645
+msgid "Holiday"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:203
+#: salon-booking/src/page/booking_pc-page.php:126
+#: salon-booking/src/page/booking_mobile-page.php:49
+msgid "Bookable"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:257
+msgid "rep"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:285
+#: salon-booking/src/page/booking-page.php:734
+#: salon-booking/src/page/booking-page.php:786
+#: salon-booking/src/page/booking_pc-page.php:208
+#: salon-booking/src/page/booking_pc-page.php:765
+#: salon-booking/src/page/booking_pc-page.php:839
+#, php-format
+msgid "Mr/Ms %s"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:378
+#: salon-booking/src/page/booking-page.php:400
+msgid "past data can not edit"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:382
+#: salon-booking/src/page/booking-page.php:412
+#: salon-booking/src/page/booking_pc-page.php:371
+#, php-format
+msgid "future data can not reserved. please less than %s days "
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:404
+#: salon-booking/src/page/booking_pc-page.php:361
+msgid "tempolary data can not update"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:408
+#: salon-booking/src/page/booking_pc-page.php:367
+msgid "this data can not edit"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:664
+#: salon-booking/src/page/booking_pc-page.php:684
+msgid "can not be reserved "
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:720
+#: salon-booking/src/page/booking_pc-page.php:751
+msgid "reservation_time is duplicated "
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:725
+#: salon-booking/src/page/booking_pc-page.php:756
+msgid "this staff is reserved "
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:787
+#: salon-booking/src/page/booking_pc-page.php:837
+#: salon-booking/src/page/booking_pc-page.php:840
+msgid "logout here"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:789
+#: salon-booking/src/page/booking_mobile-page.php:654
+msgid "Reservations are avalable without log in"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:793
+#: salon-booking/src/page/booking_pc-page.php:847
+#: salon-booking/src/page/booking_mobile-page.php:613
+#: salon-booking/src/page/booking_mobile-page.php:660
+msgid "Log in"
+msgstr ""
+
+#: salon-booking/src/page/booking-page.php:844
+#: salon-booking/src/page/booking_pc-page.php:900
+#: salon-booking/src/page/booking_mobile-page.php:781
+msgid "price"
+msgstr ""
+
+#: salon-booking/src/page/basic-page.php:257
+msgid "year"
+msgstr ""
+
+#: salon-booking/src/page/basic-page.php:279
+msgid "On Business"
+msgstr ""
+
+#: salon-booking/src/page/basic-page.php:281
+msgid "Special Absence"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:127
+#: salon-booking/src/page/mail-page.php:80
+msgid "can't check \\\"No Designation of Staff\\\""
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:191
+#: salon-booking/src/page/mail-page.php:121
+msgid "update"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:196
+msgid "only shop"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:198
+msgid "plural shops"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:215
+msgid "unable to enter when holidays"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:217
+msgid "unable to enter other than when attendant"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:221
+msgid "Sur Name first"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:223
+msgid "Given Name first"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:245
+#: salon-booking/src/page/booking_pc-page.php:180
+#: salon-booking/src/page/salon-page.php:2587
+#: salon-booking/src/page/salon-page.php:2595
+msgid "Staff"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:247
+#: salon-booking/src/page/salon-page.php:1076
+msgid "Month"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:249
+#: salon-booking/src/page/salon-page.php:1075
+msgid "Week"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:251
+#: salon-booking/src/page/config-page.php:260
+#: salon-booking/src/page/salon-page.php:1074
+msgid "Day"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:258
+msgid "Minute"
+msgstr ""
+
+#: salon-booking/src/page/config-page.php:259
+msgid "Hour"
+msgstr ""
+
+#: salon-booking/src/page/booking-edit.php:61
+msgid "reservation is completed"
+msgstr ""
+
+#: salon-booking/src/page/booking-edit.php:76
+msgid ""
+"reservation is not completed.Please confirm your reservation by [confirm "
+"form] in E-mail "
+msgstr ""
+
+#: salon-booking/src/page/booking-get-mobile.php:66
+msgid "Date is out of ranges."
+msgstr ""
+
+#: salon-booking/src/page/customer-page.php:261
+#: salon-booking/src/page/salon-page.php:496
+#: salon-booking/src/page/salon-page.php:710
+#: salon-booking/src/page/salon-page.php:1699
+#: salon-booking/src/page/salon-page.php:1843
+#: salon-booking/src/page/salon-page.php:1849
+#: salon-booking/src/page/booking_mobile-page.php:719
+msgid "select please"
+msgstr ""
+
+#: salon-booking/src/page/booking_pc-page.php:319
+#: salon-booking/src/page/booking-mobile-edit.php:93
+#, php-format
+msgid "The future times can not reserved. please less than %s days "
+msgstr ""
+
+#: salon-booking/src/page/booking_pc-page.php:329
+msgid "This staff member can not treat this menu "
+msgstr ""
+
+#: salon-booking/src/page/booking_pc-page.php:425
+#: salon-booking/src/page/booking_mobile-page.php:174
+msgid "This reservation delete ?"
+msgstr ""
+
+#: salon-booking/src/page/booking_pc-page.php:428
+msgid "This is temporary reservation.\\nContinue?"
+msgstr ""
+
+#: salon-booking/src/page/booking_pc-page.php:774
+msgid ""
+"This is temporary reservation.\\nIf you will update,this reservation is "
+"completed.\\nContinue?"
+msgstr ""
+
+#: salon-booking/src/page/booking_pc-page.php:827
+msgid "Mobile Version"
+msgstr ""
+
+#: salon-booking/src/page/booking_pc-page.php:836
+msgid "admin here"
+msgstr ""
+
+#: salon-booking/src/page/booking_pc-page.php:843
+msgid "Reservations are available without log in"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:69
+msgid "reserved day"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:70
+msgid "reserved staff"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:71
+msgid "reserved menu"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:72
+#: salon-booking/src/page/salon-page.php:1686
+#: salon-booking/src/page/salon-page.php:1790
+#: salon-booking/src/page/salon-page.php:2100
+msgid "Remark"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:73
+msgid "status"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:75
+msgid "Register as a Member"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:82
+msgid "Reservation Completed"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:83
+msgid "Reservation Cancel"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:84
+msgid "Reservation Completed ?"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:88
+#: salon-booking/src/page/confirm-page.php:127
+msgid "Reservated Cancel"
+msgstr ""
+
+#: salon-booking/src/page/confirm-page.php:101
+msgid "reservation cancel ok"
+msgstr ""
+
+#: salon-booking/src/page/mail-page.php:129
+msgid "The Mail to Confirming Notice to the Client"
+msgstr ""
+
+#: salon-booking/src/page/mail-page.php:130
+msgid "The Mail to respond to the Client newly registered as a Member"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:181
+#: salon-booking/src/page/log-page.php:53
+#: salon-booking/src/page/log-page.php:57
+msgid "Show Details"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:217
+msgid "Display _MENU_ records per page"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:218
+msgid "Next Page"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:219
+msgid "Prev Page"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:220
+msgid "Showing _START_ to _END_ of _TOTAL_ records"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:221
+msgid "search"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:222
+msgid "No data available in table"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:223
+msgid "Loading..."
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:224
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:225
+msgid "No matching records found"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:275
+#: salon-booking/src/page/salon-page.php:2089
+msgid "Operation"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:320
+msgid "change"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:321
+msgid "cancel"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:322
+msgid "click edit"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:387
+msgid "Delete "
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:388
+msgid "Delete ok?"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:389
+msgid "Select"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:589
+msgid "sun"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:589
+msgid "mon"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:589
+msgid "tue"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:589
+msgid "wed"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:589
+msgid "thr"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:589
+msgid "fri"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:589
+msgid "sat"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:940
+#: salon-booking/src/page/booking-mobile-edit.php:78
+#, php-format
+msgid "Your reservation is possible from %s."
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:964
+msgid "Regular Duty"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:965
+msgid "Day Off"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:968
+msgid "Late In"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:969
+msgid "Early Out"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:970
+msgid "Holiday Shift"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1054
+#: salon-booking/src/page/salon-page.php:1158
+msgid "holiday"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1067
+msgid ""
+"\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July"
+"\", \"August\", \"September\", \"October\", \"November\", \"December\""
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1068
+#: salon-booking/src/page/salon-page.php:1111
+#: salon-booking/src/page/salon-page.php:1112
+msgid ""
+"\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct"
+"\",\"Nov\",\"Dec\""
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1069
+#: salon-booking/src/page/salon-page.php:1113
+#: salon-booking/src/page/booking_mobile-page.php:76
+msgid ""
+"\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\","
+"\"Saturday\""
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1070
+#: salon-booking/src/page/salon-page.php:1114
+#: salon-booking/src/page/salon-page.php:1115
+#: salon-booking/src/page/booking_mobile-page.php:77
+msgid "\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\""
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1073
+#: salon-booking/src/page/salon-page.php:1110
+msgid "today"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1080
+msgid "%j %M %Y"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1081
+msgid "%F %Y"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1082
+msgid "%l"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1083
+msgid "%D, %F %j"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1108
+msgid "prevText: \"&#x3C;\""
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1109
+msgid "nextText: \"&#x3E;\""
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1116
+msgid "week"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1117
+msgid "mm/dd/yy"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1123
+msgid "yearSuffix:\"\" "
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1223
+msgid "On business"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1541
+#: salon-booking/src/page/salon-page.php:1553
+msgid "within 10 charactors"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1552
+msgid "Last Name"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1563
+msgid "Salon Name"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1564
+msgid "within 10 charctors"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1574
+msgid "Menu Name"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1575
+#: salon-booking/src/page/salon-page.php:1586
+msgid "within 30 charctors"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1585
+msgid "Position Name"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1596
+msgid "Short Name"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1597
+msgid "within 5 charctors"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1603
+#: salon-booking/src/page/salon-page.php:1614
+#: salon-booking/src/page/salon-page.php:2575
+msgid "space input between first-name and last-name"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1624
+msgid "Shop"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1625
+msgid "select shop"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1646
+msgid "Position"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1647
+msgid "when unknown, choose staff"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1669
+msgid "wp_role"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1670
+msgid "when unknown, choose author"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1681
+msgid "check permit process"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1687
+#: salon-booking/src/page/salon-page.php:1791
+msgid "within 300 charctors"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1698
+msgid "Representative"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1704
+msgid "Zip"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1705
+#: salon-booking/src/page/salon-page.php:2464
+msgid "please XXXXX-XXXX format"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1710
+msgid "Address"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1711
+msgid "within 200 charctors"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1716
+#: salon-booking/src/page/salon-page.php:1722
+#: salon-booking/src/page/salon-page.php:1728
+#: salon-booking/src/page/salon-page.php:1752
+#: salon-booking/src/page/salon-page.php:1771
+#: salon-booking/src/page/salon-page.php:2151
+msgid "Tel"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1717
+#: salon-booking/src/page/salon-page.php:1723
+#: salon-booking/src/page/salon-page.php:1729
+#: salon-booking/src/page/salon-page.php:1735
+#: salon-booking/src/page/salon-page.php:1741
+#: salon-booking/src/page/salon-page.php:1753
+#: salon-booking/src/page/salon-page.php:1772
+#: salon-booking/src/page/salon-page.php:2152
+#: salon-booking/src/page/salon-page.php:2473
+msgid "within 15 charctors"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1734
+#: salon-booking/src/page/salon-page.php:1740
+msgid "Mobile"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1746
+#: salon-booking/src/page/salon-page.php:1758
+#: salon-booking/src/page/salon-page.php:1765
+#: salon-booking/src/page/salon-page.php:1777
+msgid "Mail"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1747
+#: salon-booking/src/page/salon-page.php:1759
+#: salon-booking/src/page/salon-page.php:2136
+#: salon-booking/src/page/salon-page.php:2479
+msgid "please XXX@XXX.XXX format"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1766
+#: salon-booking/src/page/salon-page.php:1778
+msgid "when no mail , nothing input"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1785
+msgid "when possible ,same mail"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1803
+#: salon-booking/src/page/salon-page.php:1813
+#: salon-booking/src/page/salon-page.php:1819
+#: salon-booking/src/page/salon-page.php:1825
+#: salon-booking/src/page/salon-page.php:2503
+msgid "please MM/DD/YYYY or MMDDYYYY format"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1818
+msgid "Entering Day"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1824
+msgid "Leaving Day"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1830
+msgid "Open Time"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1831
+#: salon-booking/src/page/salon-page.php:1837
+#: salon-booking/src/page/salon-page.php:2486
+msgid "please HH:MM or HHMM format"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1836
+msgid "Close Time"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1855
+#: salon-booking/src/page/salon-page.php:2445
+msgid "please enter numeric"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1867
+msgid "holiday but does bussiness"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1873
+msgid "check please"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1878
+#: salon-booking/src/page/salon-page.php:2588
+#: salon-booking/src/page/salon-page.php:2596
+msgid "Menu"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1879
+#: salon-booking/src/page/salon-page.php:2000
+#: salon-booking/src/page/item-page.php:264
+#: salon-booking/src/page/staff-page.php:520
+#: salon-booking/src/page/staff-page.php:531
+msgid "please select"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1882
+msgid "Check the menu which this staff member can treat"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1890
+msgid "plural shops ,check here"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1896
+msgid "if customer login possible ,check here"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1902
+msgid "if write operation  to log ,check here"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1908
+msgid "if mask the personal information ,check here"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1914
+msgid "enter the designated months "
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1920
+msgid "when debgug, check here"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1925
+msgid "Registered as a Member"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1926
+msgid "when join as a member, check here"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1932
+msgid "within 300 charctors. {X-TO_NAME} in the content replace customer name"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1941
+msgid "within 300 charctors.  {X-TO_NAME} in the content replace customer name"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1951
+msgid ""
+"you may select “unable to enter other than when attendant”if you could "
+"register your attendance and the absence correctly in advance"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1957
+msgid "please select Sur Name First or Given Name first"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1963
+msgid ""
+"if allow the reservation without nomination of a certain staff ,check here"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1969
+msgid "if maintenance staff member display front form  ,check here"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1976
+msgid "plese enter your loginid"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1981
+msgid "Password"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1982
+msgid "plese enter your password"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1987
+msgid "Start time"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1993
+msgid "End time"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:1999
+msgid "Reserved time"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2017
+msgid "In Time"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2023
+msgid "Out Time"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2029
+msgid "Working Status"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2036
+msgid "redundant reservations a staff can handle at the same timeframe"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2042
+msgid "the maximum number of the reservations to coop simultaneously"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2049
+msgid ""
+"the range of th days extarcted from the data base of the actual performance"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2055
+msgid "the range of th days extarcted from the data base of the reservation"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2061
+msgid "Number of the staff displayed"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2062
+msgid "screen showing staff for the reservation screen"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2068
+msgid "Logged date "
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2078
+msgid "Time"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2079
+msgid "Logged time"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2090
+msgid "the operation to tables"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2101
+msgid "REMOTE_ADDR,REFERER"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2111
+msgid "Seq"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2146
+#: salon-booking/src/page/booking_mobile-page.php:627
+msgid "MM/DD/YYYY"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2158
+msgid "if use the screen of  mobiles and pc, check here"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2178
+msgid "Expiry date(from)"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2179
+msgid ""
+"Please input Expiry date.If Expiry date(from) is not input,this menu is "
+"always valid."
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2184
+msgid "Expiry date(to)"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2185
+msgid ""
+"Please input Expiry date.If Expiry date(to) is not input,this menu is always "
+"valid."
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2190
+msgid "All staff member can treat"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2191
+msgid "If all staff member can treat this menu,check here."
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2198
+msgid "Please select default load tab at the Reservation Screen."
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2204
+msgid "Introductions"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2205
+msgid "Please input self-introductions."
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2211
+msgid "Select Mail"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2212
+msgid "Please select."
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2217
+msgid "The Subject of the Mail to Confirming Notice to the Client"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2218
+#: salon-booking/src/page/salon-page.php:2224
+msgid "within 78 charctors."
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2223
+msgid ""
+"The Subject of the Mail to respond to the Client newly registered as a Member"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2231
+msgid "How many days or hours is the deadline of reservation."
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2381
+#: salon-booking/src/page/salon-page.php:2463
+msgid "^\\d{5}(?:[-\\s]\\d{4})?$"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2439
+msgid "please enter"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2452
+msgid "please full width enter"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2492
+msgid "(\\d{1,2})[\\/\\.\\-](\\d{1,2})[\\/\\.\\-](\\d{4})"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2492
+msgid "(\\d{2})(\\d{2})(\\d{4})"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2493
+msgid "RegExp.$3"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2494
+msgid "RegExp.$1"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2495
+msgid "RegExp.$2"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2499
+msgid "this day not exist?"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2514
+msgid "within charactors"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2526
+msgid "greater than"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2529
+msgid "within"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2550
+msgid "select one or more"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2566
+msgid "please check"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2597
+msgid "Comment"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2625
+msgid "mm/dd/yyyy"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2633
+msgid "up"
+msgstr ""
+
+#: salon-booking/src/page/salon-page.php:2634
+msgid "down"
+msgstr ""
+
+#: salon-booking/src/page/item-page.php:155
+msgid ""
+"This menu checked as the following staff member.\\nIf you will remove this "
+"menu,\\nplease update the menu of the following staff member.\\n"
+msgstr ""
+
+#: salon-booking/src/page/item-page.php:171
+msgid ""
+"This menu checked as the following staff member.\\nIf you will uncheck \\"
+"\"All staff member can treat\\\",\\nplease update the menu of the following "
+"staff member.\\n"
+msgstr ""
+
+#: salon-booking/src/page/download-page.php:24
+msgid "Please check download items"
+msgstr ""
+
+#: salon-booking/src/page/download-page.php:34
+msgid "Exec"
+msgstr ""
+
+#: salon-booking/src/page/download-page.php:34
+msgid "Cancel"
+msgstr ""
+
+#: salon-booking/src/page/photo-edit.php:33
+#: salon-booking/src/page/photo-edit.php:38
+#: salon-booking/src/page/staff-page.php:134
+msgid "FILE TYPE ERROR"
+msgstr ""
+
+#: salon-booking/src/page/photo-edit.php:41
+msgid "FILE MAX SIZE ERROR(10M)"
+msgstr ""
+
+#: salon-booking/src/page/booking-get-event.php:58
+#, php-format
+msgid "%s reserved"
+msgstr ""
+
+#: salon-booking/src/page/booking-get-event.php:77
+msgid "reserved"
+msgstr ""
+
+#: salon-booking/src/page/booking-get-event.php:78
+msgid "tempolary reserved"
+msgstr ""
+
+#: salon-booking/src/page/booking-mobile-edit.php:71
+msgid "Check reserved time "
+msgstr ""
+
+#: salon-booking/src/page/booking-mobile-edit.php:78
+msgid "m/d/Y"
+msgstr ""
+
+#: salon-booking/src/page/booking-mobile-edit.php:113
+msgid "reservation is compledted"
+msgstr ""
+
+#: salon-booking/src/page/booking-mobile-edit.php:116
+msgid ""
+"reservation is not compledted.Please confirm your reservation by [confirm "
+"form] in E-mail "
+msgstr ""
+
+#: salon-booking/src/page/booking_mobile-page.php:620
+msgid "Prev"
+msgstr ""
+
+#: salon-booking/src/page/booking_mobile-page.php:621
+msgid "Today"
+msgstr ""
+
+#: salon-booking/src/page/booking_mobile-page.php:622
+msgid "Next"
+msgstr ""
+
+#: salon-booking/src/page/booking_mobile-page.php:631
+msgid "When?"
+msgstr ""
+
+#: salon-booking/src/page/booking_mobile-page.php:646
+#: salon-booking/src/page/booking_mobile-page.php:790
+msgid "Booking"
+msgstr ""
+
+#: salon-booking/src/page/booking_mobile-page.php:796
+msgid "Desktop"
+msgstr ""
+
+#: salon-booking/src/page/booking_mobile-page.php:797
+msgid "Telephone Here"
+msgstr ""
+
+#: salon-booking/src/page/branch-page.php:80
+#: salon-booking/src/page/branch-page.php:107
+msgid "show detail"
+msgstr ""
+
+#: salon-booking/src/page/staff-page.php:142
+msgid "Drop files here to upload"
+msgstr ""
+
+#: salon-booking/src/page/staff-page.php:143
+msgid "File is too big ({{filesize}}MB). Max filesize: {{maxFilesize}}MB."
+msgstr ""
+
+#: salon-booking/src/page/staff-page.php:144
+msgid "You can't upload files of this type."
+msgstr ""
+
+#: salon-booking/src/page/staff-page.php:146
+msgid "Your browser does not support drag&drop file uploads."
+msgstr ""
+
+#: salon-booking/src/page/staff-page.php:147
+msgid "You can only upload {{maxFiles}} files."
+msgstr ""
+
+#: salon-booking/src/page/staff-page.php:241
+msgid ""
+"Photos are updated,But staff data is not inserted or updated. Continue OK ?"
+msgstr ""
+
+#: salon-booking/src/page/staff-page.php:493
+msgid ""
+"Photos of staff member.<br> Drop files here or click here and select files"
+msgstr ""

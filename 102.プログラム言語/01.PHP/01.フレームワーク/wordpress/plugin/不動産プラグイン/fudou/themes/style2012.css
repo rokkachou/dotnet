@@ -1,0 +1,985 @@
+@charset "utf-8";
+
+/* = 
+ * Twenty Twelve
+ * widget_fudo Style
+ * style2012.css サイト基本の装飾
+ * @package WordPress3.8
+ * Version: 1.4.2.
+-------------------------------------------------------------- */
+
+
+/* 基本サイズ */
+
+
+
+.widget-area{
+	width: 22% !important;
+}
+.site-content {
+	float: left;
+	width: 77.8% !important;
+	max-width : 703px;
+}
+
+
+/* Minimum width of 600 pixels. 600px以下の場合 */
+@media screen and (max-width: 600px) {
+
+	.site-content {
+		float: none !important;
+		width: 98% !important;
+	}
+	.widget-area{
+		float: none !important;
+		width: 98% !important;
+	}
+	.ie .nav-menu ul li a,
+	.ie .nav-menu ul li {
+		display: inline-block;
+	}
+}
+
+
+/* Minimum width of 1024 pixels. 1024px以下の場合 */
+@media screen and (max-width: 1024px) {
+	body .site { padding: 0 1.4rem; }
+}
+
+/* Minimum width of 1004 pixels. 1000px以下の場合 */
+@media screen and (max-width: 1004px) {
+	body .site { padding: 0 1rem; }
+}
+
+/* Minimum width of 984 pixels. 1000px以下の場合 */
+@media screen and (max-width: 984px) {
+	body .site { padding: 0 0.7rem; }
+}
+
+/* Minimum width of 964 pixels. 1000px以下の場合 */
+@media screen and (max-width: 964px) {
+	body .site { padding: 0 0.5rem; }
+}
+
+
+/* Max width of 900 pixels. */
+@media screen and (max-width: 900px) {
+
+	#list_simplepage2 .list_simple_box .list_picsam {
+		float: none !important;	
+		width: 98% !important;	
+	}
+	#list_simplepage2 .list_simple_box .list_detail{
+		margin:  20px 0 !important;	
+		float: none !important;	
+		width: 96% !important;	
+	}
+
+
+	#list_simplepage .list_simple_box .list_picsam {
+		float: none !important;		
+	}
+	#list_simplepage .list_simple_box .list_detail{
+		margin:  20px 0 !important;	
+		float: none !important;	
+		width: 98% !important;	
+	}
+}
+
+
+
+/* = nav-menu
+---------------------------------------------------------------------- */
+.ie .nav-menu ul li a,
+.ie .nav-menu ul li {
+    display: inline;
+}
+
+
+
+
+/* 3= 汎用css
+---------------------------------------------------------------------- */
+
+.dpoint1 {
+	font-size: 26px;
+	font-weight: normal;
+	color: #C00;
+	float:left;
+	padding: 4px;
+	line-height: 1.2;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.dpoint2 {
+	font-size: 22px;
+	font-weight: normal;
+	color: #000;
+	float:left;
+	padding: 4px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.dpoint3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	display: inline;
+}
+
+.dpoint4 {
+	font-size: 20px;
+	color: #000;
+	display: inline;
+	font-weight: bold;
+}
+
+.clearLeft {
+	clear: left;
+}
+
+.clearRight {
+	clear: right;
+}
+
+
+
+
+/* 12= 物件リストページ #list_simplepage
+---------------------------------------------------------------------- */
+
+.list_detail table td {
+	padding: 2px;
+}
+
+#list_simplepage .list_simple_boxtitle {
+	border-top: 3px solid #4a535d;
+	border-right: 1px solid #b7b7b7;
+	border-bottom: 1px solid #b7b7b7;
+	border-left: 1px solid #b7b7b7;
+	clear : both;
+}
+
+#list_simplepage .list_simple_boxtitle h2 a {
+	font-size: 130%;
+	font-weight: bold;
+	padding: 10px 0 10px 12px;
+	display: block;
+	background-color: #f8f8f8;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+
+
+#list_simplepage .list_simple_box:after {
+	content : '';
+	display : block;
+	clear : both;
+	height:0;
+}
+
+#list_simplepage .list_simple_box {
+	/zoom : 1;
+	padding: 10px;
+	margin: 0 0 20px 0;
+	background-color: #fefefe;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+
+#list_simplepage .list_simple_box .list_detail dt {
+	display: inline;
+	font-weight: normal;
+	color: #333;
+}
+
+#list_simplepage .list_simple_box .list_detail dd {
+	display: inline;
+	color: #333;
+	margin: 0 0.6em 0 0.4em;
+	padding: 0px;
+}
+
+#list_simplepage .list_simple_box .list_picsam {
+	float: left;
+	width: 215px;
+}
+
+#list_simplepage .list_simple_box .list_picsam img {
+	border: 1px solid #333;
+	background-color: #FFF;
+/*	height: 100px;	*/
+	width: 100px;
+	margin:  1px 1px 5px;
+	padding: 1px;
+	float: left;
+}
+
+
+
+#list_simplepage a:link,a:visited .list_details_button{ text-decoration: none; }
+
+#list_simplepage a:hover .list_details_button {
+	color: #39F;
+	text-decoration: underline;
+}
+
+#list_simplepage .list_simple_box .list_detail {
+	width: 63%;
+	float: right;
+	background-color: #fff;
+	border: 1px solid #b7b7b7;
+	padding: 4px;
+	margin: 0 3px 0 0;
+	border-radius: 5px;
+	line-height: 1.8;
+	font-size: 87.5%; 
+}
+
+#list_simplepage .list_detail table tr {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	margin-bottom: 4px;
+}
+
+#list_simplepage .list_price {
+	padding:5px;
+	background:	-moz-linear-gradient(left, #ebf6fc, #fff);
+	background:	-webkit-gradient(linear, left top, right top, from(#ebf6fc), to(#fff));
+	background-color: #ebf6fc;
+}
+
+#list_simplepage .list_price.rent {
+	background:	-moz-linear-gradient(left, #fdedf0, #fff);
+	background:	-webkit-gradient(linear, left top, right top, from(#fdedf0), to(#fff));
+	background-color: #fdedf0;
+}
+
+
+#list_simplepage .list_detail .list_price tr {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CAE7F4;
+}
+
+#list_simplepage .list_detail .list_address dd { display: block; }
+
+#list_simplepage .entry-excerpt{
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+
+
+
+
+
+/* 物件の詳細を見るボタン */
+
+#list_simplepage .list_simple_box .list_details_button {
+	clear:both;
+	display: block;
+	color:#00329B;
+	font-size: 87.5%;
+	font-weight:bold;
+	
+	background-color: #f4f4f4;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(0.49, #eeeeee), color-stop(0.5, #dddddd), color-stop(1, #ffffff));
+	background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 49%, #dddddd 50%, #ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#eeeeee',GradientType=0 ); /* ie */
+
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.7);
+	
+	-webkit-box-shadow: 0px 1px 0px #fff;
+	-moz-box-shadow: 0px 1px 0px #fff;
+	box-shadow:0px 1px 0px #fff;
+	
+	border-radius: 3px;
+	
+	text-align: center;
+	height: 24px;
+	width:210px;
+	border: 1px solid #999;
+	margin: 0 0 3px 0;
+	padding-top: 10px;
+
+	letter-spacing: 0.1em;
+}
+
+
+
+
+
+
+
+
+/* 13= 物件詳細ページ #list_simplepage2 
+---------------------------------------------------------------------- */
+
+#list_simplepage2 .entry-excerpt{
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+
+#list_simplepage2{
+	margin:0;
+	padding:0;
+}
+
+#list_simplepage2 .list_simple_box .list_detail dt {
+	display: inline;
+	font-weight: normal;
+	color: #333;
+}
+
+#list_simplepage2 .list_simple_box .list_detail dd {
+	display: inline;
+	color: #333;
+	margin: 0 0.6em 0 0.4em;
+	padding: 0px;
+}
+
+#list_simplepage2 .list_simple_box:after {
+	content : '';
+	display : block;
+	clear : both;
+	height:0;
+}
+
+
+
+#list_simplepage2 .list_detail table{
+	margin: 0px;
+	padding: 0px;
+	border:none;
+}
+
+#list_simplepage2 .list_simple_box{
+	padding: 15px 0 15px 15px;
+	margin: 0 0 20px 0;
+	border: 1px solid #ccc;
+}
+
+#list_simplepage2 .list_simple_box .list_detail {
+	display: block;
+	width: 73.7%;
+	float: left;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin:0;
+	border-radius: 5px;
+}
+
+#list_simplepage2 .list_detail h3{
+	font-size: 14px;
+	margin: 8px 0px;
+	padding: 0px 0px 0px 8px;
+	font-weight: bold;
+	color: #666;
+}
+
+#list_simplepage2 .list_picsam {
+	display: block;
+	float: left;
+	width:140px;
+	color: #000;
+	margin: 0px 10px 0px 0px;
+}
+
+#list_simplepage2 .list_picsam img {
+	border: 1px solid #999;
+	background-color: #FFF;
+/*	height: 130px;	*/
+	width: 130px;
+	margin: 0 0 4px 0;
+	padding: 1px;
+}
+
+#main #content #second_img {
+	padding: 10px 0;
+}
+
+#main #content #second_img img {
+	border: 1px solid #999;
+	background-color: #FFF;
+	width: 98px;
+	height:98px;
+	margin: 0 1px 0 0;
+	padding: 1px;
+}
+
+#list_simplepage2 .list_price {
+	background:	-moz-linear-gradient(left, #ebf6fc, #fff);
+	background:	-webkit-gradient(linear, left top, right top, from(#ebf6fc), to(#fff));
+	background-color: #ebf6fc;
+	line-height: 2;
+	margin: 0px;
+	padding: 0 0 4px 1em;
+}
+#list_simplepage2 .list_price.rent {
+	background:	-moz-linear-gradient(left, #fdedf0, #fff);
+	background:	-webkit-gradient(linear, left top, right top, from(#fdedf0), to(#fff));
+	background-color: #fdedf0;
+}
+
+#list_simplepage2 .list_detail table {
+	font-size:14px;
+}
+
+#list_simplepage2 .list_simple_box .list_detail #list_add th{
+	border-bottom:1px solid #EEEEEE;
+	line-height: 1.4;
+	padding: 5px;
+	white-space: nowrap;
+	text-align: left;
+}
+
+#list_simplepage2 .list_simple_box .list_detail #list_add td {
+	line-height: 1.4;
+	padding: 0.5em;
+	margin:0;
+	white-space: normal;
+	color: #555;
+	border-bottom:1px solid #EEEEEE;
+}
+
+#list_simplepage2 .list_simple_box .list_detail #list_other th{
+	border-right: 1px dotted #CCC;
+	border-bottom:1px solid #EEEEEE;
+	line-height: 1.2;
+	padding: 5px;
+	text-align: left;
+	width: 21%;
+}
+
+#main #content #list_simplepage2 .list_simple_box .list_detail #list_other th.th2{
+	border-left: 1px dotted #CCC;
+}
+
+
+#list_simplepage2 .list_simple_box .list_detail #list_other td {
+	border-bottom:1px solid #EEEEEE;
+	line-height: 1.2;
+	padding: 5px;
+	white-space: normal;
+	width: 30%;
+}
+
+#list_simplepage2 h2.entry-title{
+	font-weight: bold;
+	padding: 10px 0 10px 12px;
+	display: block;
+	background-color: #f8f8f8;
+	border-top: 3px solid #4a535d;
+	border-right: 1px solid #b7b7b7;
+	border-left: 1px solid #b7b7b7;
+	font-size: 130%;
+}
+
+
+#toiawasesaki{
+	display: block;
+	margin:0 0 20px ;
+	line-height: 1.2;
+}
+#contact_form{
+	display: block;
+	margin:0 0 20px ;
+}
+
+
+/* 担当者コメント entry-content */
+#main #content .entry-content p {
+	padding: 10px;
+	font-size: 12px;
+	line-height: 1.2;
+	margin: 0px;
+}
+
+
+/* 表下部・現況優先但書 */
+.list_detail_bottom_info{
+	clear : both;
+	display: block;
+	padding: 10px;
+	text-align: right;
+}
+
+
+/* for wp3.6 youtube */
+#main #content .list_detail .entry-content p iframe  {
+	max-width: 470px;
+}
+
+
+/* places */
+#main #content .list_detail .places {
+	width: 100%; 
+	margin:0 ;
+	padding: 5px 0;
+	border-left:1px solid #979797; 
+	border-right:1px solid #979797; 
+	border-bottom:1px solid #979797; 
+}
+#main #content .list_detail .places:after {
+	content : '';
+	display : block;
+	clear : both;
+	height:0;
+}
+#main #content .list_detail .places label {
+	margin: 0 5px;
+	float: left; 
+	display: block;
+	font-size: 85%;
+}
+
+
+
+
+
+/* 14= 物件詳細ページ関連物件  #syousai_box : 関連物件部分
+---------------------------------------------------------------------- */
+
+#syousai_box ul{ /zoom : 1; padding-left: 5px; }
+
+#syousai_box ul:after{ content : ''; display : block; clear : both; height:0; }
+
+#syousai_box ul.syousai-content li{
+	display: block;
+	width: 80px;
+
+	list-style-type: none;
+
+	font-size: 12px;
+	line-height: 1;
+	float:left;
+
+	border: 1px solid #ccc;
+
+	padding: 6px;
+	margin:0 5px 4px 0;
+
+	background: #f0f0f0;
+	background: -moz-linear-gradient(top, #ffffff 70%, #F7F7F7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(70%,#ffffff), color-stop(100%,#F7F7F7)); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#F7F7F7',GradientType=0 );
+}
+
+#syousai_box ul.syousai-content li span{
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+#syousai_box ul.syousai-content li img{ padding-bottom: 5px; }
+
+
+#syousai_box ul.syousai-content li .box2image{
+	width:80px; 
+/*	height:80px;	*/
+}
+
+#syousai_box .carousel_inner_fudo_top_slider_syousai_2{
+	max-width:490px; 
+}
+
+
+
+/* 17= 物件検索 固定ページ用  .jsearch
+---------------------------------------------------------------------- */
+
+
+#container #content.jsearch{
+	padding: 0 0 30px 0;
+	line-height: 2;
+}
+
+/* カラム変更によるcontent余白調整 */
+
+.singular #container #content.jsearch{
+	width: 100%;
+	float: none;
+}
+
+.right-sidebar #container #content.jsearch {
+	margin: 0;
+	width: 690px;
+	float: right;
+}
+
+.left-sidebar #container #content.jsearch{
+	width: 700px;
+	float: left;
+}
+
+/*  */
+
+#main #container #content.jsearch h3{
+	border-bottom: 1px dotted #CCC;
+	border-left: 4px solid #CCC;
+	padding: 5px 0px 5px 10px;
+	margin: 0px 0px 10px -10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	text-shadow : none;
+}
+
+#container .jsearch h4{
+	border-left: 4px solid #CCC;
+	padding: 0px 0px 0px 6px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #505050;
+	margin: 15px 0px 5px -10px;
+}
+
+#container .jsearch h5{
+	margin: 10px 0px 0px -5px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+}
+
+
+.jsearch p{
+	margin: 0;
+	padding: 0px 10px 10px 0px;
+}
+
+#container .jsearch ul{
+	margin: 0 0 10px;
+	padding: 0px;
+	overflow: hidden;
+	/zoom: 1;
+}
+
+.jsearch li{
+	margin: 0 1em 0 0;
+	padding: 0;
+	display: block;
+	float: left;
+	list-style-type: none;
+}
+
+.jsearch label {
+	margin-right: 5px;
+	color: #666;
+}
+
+#container .jsearch .submit input{ 
+	width: 160px;
+	border: 1px solid #298CBA;
+	padding: 3px 10px;
+	margin: 10px 10px 20px 0;
+	color: #FFFFFF;
+	font-weight: bold;
+
+	cursor: pointer;
+
+	border-radius: 10px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	
+	background: #298CBA; /* old browsers */
+	background: -moz-linear-gradient(top, #0298CB 0%, #247CA4 50%, #206D93 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0298CB), color-stop(50%, #247CA4), color-stop(100%, #206D93)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0298CB', endColorstr='#206D93', GradientType=0 ); /* ie */
+	background: linear-gradient(top, #0298CB 0%, #247CA4 50%, #206D93 100%);
+}
+
+/* 17= 物件検索 固定ページ用  .jsearch 新
+---------------------------------------------------------------------- */
+
+	table.form_jsearch {
+		border: 1px solid #E5E5E5;
+		border-collapse: collapse;
+		font-size: 87.6%;
+		line-height: 18px;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	table.form_jsearch tr {
+		border: 0 none currentcolor;
+		font: inherit;
+		margin: 0;
+		padding: 0;
+	}
+	table.form_jsearch th {
+		background:  #F6F6F6;
+		border-bottom: 1px solid #E5E5E5;
+		font-weight: bold;
+		padding: 10px !important;
+		text-align: left;
+		width: 18%;
+		vertical-align: top;	
+	}
+	table.form_jsearch td {
+		border-bottom: 1px solid #E5E5E5;
+		border-left: 1px solid #E5E5E5;
+		margin: 0;
+		padding: 10px !important;
+		width: 81%;
+	}
+
+	table.form_jsearch h5 {
+		margin: 10px 0 10px !important;
+	}
+	table.form_jsearch ul {
+		margin: 0 !important;
+	}
+
+
+
+
+
+/* 00= Fudousan Plugin Copyright
+---------------------------------------------------------------------- */
+
+#nendebcopy {
+	font-size: 12px;
+	max-width: 68.5714rem;
+	margin: -20px auto;
+	text-align: right;
+}
+
+#nendebcopy a {
+	color: #686868;
+	text-decoration: none;
+}
+
+
+
+
+/* = widget Top Slider Style
+-------------------------------------------------------------- */
+	/* = sidebar only
+	-------------------------------------------------------------- */
+	#tertiary .carousel_inner,
+	#primary .carousel_inner,
+	#secondary .carousel_inner{
+		padding-top: 0px;
+		padding-left: 0px; 
+
+		width: 210px;
+	/*	height: 115px; */
+		overflow: hidden;
+		margin: 0;
+	}
+
+	#tertiary .grid-content li,
+	#primary .grid-content li,
+	#secondary .grid-content li{
+		display: block;
+		width: 200px;
+		font-size: 10px;
+		line-height: 1.2;
+		float:left;
+
+		list-style-type: none;
+		
+		padding: 8px;
+	}
+
+	#tertiary .box1image ,
+	#primary .box1image ,
+	#secondary .box1image{
+		width: 100px;
+		float:left;
+		padding-right: 5px; 
+	}
+
+
+
+	/* 2011 */
+	.two-column #secondary .grid-content li{
+		width: 210px;
+	}
+
+	.showcase #content .grid-content .carousel_inner li {
+		padding-top: 0px;
+		padding-left: 0px; 
+
+		width: 210px;
+		height: 130px;
+		overflow: hidden;
+		margin: 0;
+
+		font-size: 10px;
+		line-height: 1.2;
+
+	}
+
+
+	/* 2010 */
+	#main .widget-area ul ul.grid-content {
+	    margin-left: -0.5em;
+	}
+
+
+
+	/* unpc*/
+	#main .widget-area ul.grid-content{
+		padding: 0;
+	}
+	.three-column.unpc .grid-content li{
+		width: 175px;
+	}
+	.three-column.unpc #tertiary .grid-content li,
+	.three-column.unpc #secondary .grid-content li{
+		width: 175px;
+		margin-left: -0.5em;
+	}
+	.three-column.unpc #tertiary .box1image,
+	.three-column.unpc #secondary .box1image{
+		width: 90px;
+	}
+	.three-column.unpc #tertiary .carousel_inner,
+	.three-column.unpc #secondary .carousel_inner{
+		width: 180px;
+	}
+	.two-column.unpc .grid-content li{
+		width: 190px;
+	}
+	.two-column.unpc #secondary .grid-content li{
+		width: 190px;
+		margin-left: -0.5em;
+	}
+	.two-column.unpc #secondary .box1image{
+		width: 75px;
+	}
+	.two-column.unpc #secondary .carousel_inner{
+		width: 195px;
+	}
+
+
+
+
+	/* = footer only
+	-------------------------------------------------------------- */
+	footer .carousel_inner,
+	#footer .carousel_inner{
+		padding-top: 0px;
+		padding-left: 0px; 
+
+		width: 210px;
+	/*	height: 115px; */
+		overflow: hidden;
+		margin: 0;
+	}
+
+	footer .grid-content li,
+	#footer .grid-content li{
+		display: block;
+		width: 200px;
+		font-size: 10px;
+		line-height: 1.2;
+		float:left;
+
+		list-style-type: none;
+		
+		padding: 8px;
+	}
+
+	footer .box1image,
+	#footer .box1image{
+		width: 100px;
+		float:left;
+		padding-right: 5px; 
+	}
+
+	#footer .widget-area ul ul.grid-content {
+	    margin-left: -0.5em;
+	}
+
+
+	/* = NEW/UP mark
+	-------------------------------------------------------------- */
+
+	.showcase #content .grid-content,
+	footer .grid-content li,
+	#footer .grid-content li,
+	#tertiary .grid-content li,
+	#primary .grid-content li,
+	#secondary .grid-content li{
+		position: relative;
+	}
+
+	.page-template-showcase-php .new_mark,
+	footer .new_mark,
+	#footer .new_mark,
+	#tertiary .new_mark,
+	#primary .new_mark,
+	#secondary .new_mark {
+		font-family: Verdana, Geneva, sans-serif;
+
+		font-size: 10px;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		color: #FFF;
+		
+		display: block;
+		padding: 2px 5px;
+		width: auto;
+
+		position: absolute;
+		top: 3px;
+		left: 5px;
+		
+		border-radius: 4px;
+
+		text-shadow:1px 1px 0px #900;
+
+		background: #900; /* Old browsers */
+		background: -moz-linear-gradient(top, #d20100 0%, #990000 100%); /* FF3.6+ */
+		background: -webkit-linear-gradient(top, #d20100 0%,#990000 100%); /* Chrome10+,Safari5.1+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d20100', endColorstr='#990000',GradientType=0 ); /* IE6-9 */
+		background: linear-gradient(top, #d20100 0%,#990000 100%); /* W3C */
+	}
+
+
+
+
+	/* = 関連物件
+	-------------------------------------------------------------- */
+	#syousai_box ul.syousai-content li {
+		position: relative;
+	}
+
+	#syousai_box .new_mark {
+		font-family: Verdana, Geneva, sans-serif;
+
+		font-size: 9px;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		color: #FFF;
+		
+		display: block;
+		padding: 2px 5px;
+		width: auto;
+
+		position: absolute;
+		top: 6px;
+		right: 6px;
+		
+		border-radius: 4px;
+
+		text-shadow:1px 1px 0px #900;
+
+		background: #900; /* Old browsers */
+		background: -moz-linear-gradient(top, #d20100 0%, #990000 100%); /* FF3.6+ */
+		background: -webkit-linear-gradient(top, #d20100 0%,#990000 100%); /* Chrome10+,Safari5.1+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d20100', endColorstr='#990000',GradientType=0 ); /* IE6-9 */
+		background: linear-gradient(top, #d20100 0%,#990000 100%); /* W3C */
+	}
+
+
+/*  */
+

@@ -1,0 +1,653 @@
+@charset "utf-8";
+
+/* = 
+ * Twenty Fourteen
+ * widget_fudo Style
+ * style2014.css サイト基本の装飾
+ * @package WordPress3.8
+ * Version: 1.4.2.
+-------------------------------------------------------------- */
+
+
+/* 基本サイズ */
+
+/* トップ */
+#content #top_fbox {
+/*	margin: -24px 0 0 30px; */
+	max-width: 640px;
+}
+
+
+/* 基本タイトル */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal !important;
+/*	margin: 0 0 12px !important; */
+}
+
+.widget-title{
+	font-size: 16px;
+	font-weight:normal;
+}
+
+/* トップウィジェットタイトル */
+#top_fbox h3{
+	font-size: 33px;
+	font-weight:normal;
+}
+
+
+
+
+/* サイトカラー  変更したい場合は各色を設定してください。
+---------------------------------------------------------------------- */
+	/* 背景色 */
+/*
+	.site:before,
+	.site-header,
+	.primary-navigation,
+	.grid .featured-content .entry-header,
+	.featured-content .entry-header,
+	#secondary,
+	.site-footer,
+	#supplementary,
+	#nendebcopy
+	{
+		background: #ff0000 !important;
+	}
+
+	.grid .featured-content .entry-header{
+		border-color: transparent !important;
+	}
+*/
+
+	/* 文字色 */
+/*
+	.site-title a,
+	.primary-navigation a,
+	.site-description,
+	.featured-content a,
+	#secondary,
+	.secondary-navigation a,
+	.widget-area .widget-title,
+	.widget-area .widget-title a,
+	.widget-area a,
+	.site-footer, 
+	.site-footer a,
+	.site-info, 
+	.site-info a,
+	#nendebcopy a
+	{
+		color: #000 !important;
+	}
+*/
+	/* ボックス色 */
+/*
+	.widget-area input[type="text"], 
+	.widget-area input[type="email"], 
+	.widget-area input[type="url"], 
+	.widget-area input[type="search"], 
+	.widget-area input[type="password"], 
+	.widget-area textarea
+	{
+		background: #fff !important;
+		border: 1px solid #ccc;
+		color: #000;
+	}
+*/
+
+
+
+
+/* 3= カラー修正---------------------------------------------------------------------- */
+
+#primary .widget a,
+#primary .entry-meta a{
+	color: #2B2B2B;
+}
+
+#primary .widget a{
+	color: #24890D;
+}
+
+/* 3= 汎用css
+---------------------------------------------------------------------- */
+
+.dpoint1 {
+	font-size: 150%;
+	font-weight: normal;
+	color: #C00;
+	float:left;
+	padding: 4px;
+	line-height: 1.2;
+}
+
+.dpoint2 {
+	font-size: 130%;
+	font-weight: normal;
+	color: #000;
+	float:left;
+	padding: 4px;
+}
+
+.dpoint3 {
+	font-size: 120%;
+	font-weight: bold;
+	color: #000;
+	display: inline;
+}
+
+.dpoint4 {
+	font-size: 20px;
+	color: #000;
+	display: inline;
+	font-weight: bold;
+}
+
+.clearLeft {
+	clear: left;
+}
+
+.clearRight {
+	clear: right;
+}
+
+
+
+/* 12= 物件リストページ #list_simplepage
+---------------------------------------------------------------------- */
+	.archive-fudo a img{
+		display: inline;
+	}
+
+	#list_simplepage .list_simple_box:after {
+		content : '';
+		display : block;
+		clear : both;
+		height: 48px;
+	}
+
+	.list_detail dl.list_price_others{
+		margin: -24px 0 0;
+	}
+
+	#list_simplepage table ,
+	#list_simplepage th ,
+	#list_simplepage td {
+		border-width: 0;
+	}
+
+	.list_price_others table td,
+	.list_address table td {
+		border-bottom: 1px solid #ccc !important; 
+	}
+
+	.list_detail table td {
+		padding: 2px;
+	}
+
+	#list_simplepage .list_simple_box .list_detail dt {
+		display: inline;
+		font-weight: normal;
+		white-space: nowrap;
+	}
+
+	#list_simplepage .list_simple_box .list_detail dd {
+		display: inline;
+		color: #333;
+		margin: 0 0 0 0.3em;
+		padding: 0px;
+		max-width: 320px;
+	}
+
+	/* 左 */
+	#list_simplepage .list_simple_box .list_picsam {
+		float: left;
+		max-width: 200px;
+	}
+
+	#list_simplepage .list_simple_box .list_picsam img {
+		border: 1px solid #333;
+		width: 90px;
+		/*height: 90px;	*/
+		margin:  1px 1px 5px;
+		padding: 2px;
+	}
+
+	#list_simplepage .list_simple_box .list_picsam_img{
+		width: 196px;
+		display: block;
+	}
+
+	/* 右 */
+	#list_simplepage .list_simple_box .list_detail {
+		max-width: 100%;
+		/*width: 63%; */
+		/*float: left; */
+		margin: 0 3px 0 0;
+		padding: 0 0 0 10px;
+		line-height: 1.8;
+		font-size: 87.5%; 
+		overflow: hidden;
+	}
+
+	/* 種別カラー */
+	#list_simplepage .list_price {
+		background-color: #ebf6fc;
+	}
+
+	#list_simplepage .list_price.rent {
+		background-color: #fdedf0;
+	}
+
+	/* 抜粋 */
+	#list_simplepage .entry-excerpt{
+		padding-bottom: 10px;
+		padding-left: 5px;
+	}
+
+	/* 戻るリンク */
+	.archive-fudo .pageback{
+		float : right;
+	}
+
+	/* 物件の詳細を見るボタン */
+	#list_simplepage .list_simple_box .list_details_button {
+		clear:both;
+		display: block;
+		max-width: 176px;
+		color:#fff;
+		font-size: 87.5%;
+		font-weight:bold;
+		
+		background-color: #24890D;
+		border: medium none;
+		
+		text-align: center;
+		margin: 0 0 3px 0;
+		padding: 10px;
+	}
+
+	#list_simplepage .list_simple_box a > .list_details_button:active ,
+	#list_simplepage .list_simple_box a > .list_details_button:hover  {
+		background-color: #41A62A !important;
+		text-decoration: none !important;
+	}
+
+
+
+
+
+/* 13= 物件詳細ページ #list_simplepage2 
+---------------------------------------------------------------------- */
+
+	#list_simplepage2{
+		margin: -24px 0 0 30px;
+		padding:0;
+		max-width: 630px;
+	}
+
+	#list_simplepage2 .widget {
+		max-width: none;
+	}
+
+	#list_simplepage2 a img{
+		display: inline;
+	}
+
+	#list_simplepage2 .list_simple_box .list_detail {
+		display: block;
+		float: left;
+		margin:0;
+	/*	max-width: 620px;*/
+		width: 100%;
+	}
+
+
+	#list_simplepage2 .entry-excerpt{
+		padding: 0 0 10px;
+	}
+
+
+
+	/* 物件情報 */
+	#list_simplepage2 .list_simple_box .list_detail dt {
+		display: inline;
+		font-weight: normal;
+		color: #333;
+	}
+
+	#list_simplepage2 .list_simple_box .list_detail dd {
+		display: inline;
+		color: #333;
+		margin: 0 0.6em 0 0.4em;
+		padding: 0px;
+	}
+
+	#list_simplepage2 .list_simple_box:after {
+		content : '';
+		display : block;
+		clear : both;
+		height:0;
+	}
+
+	#list_simplepage2 .list_detail table{
+		margin: 0px;
+		padding: 0px;
+		border:none;
+	}
+
+	/* 見出し */
+	#list_simplepage2 h2.entry-title{	}
+	#list_simplepage2 .list_detail h3{	}
+
+
+	/* 画像 */
+	#list_simplepage2  #second_img ,
+	#list_simplepage2 .list_picsam {
+		display: block;
+		margin: 0 0 48px;
+	}
+
+	#list_simplepage2 .list_picsam img {
+		border: 1px solid #000;
+		width: 150px;
+		margin: 0 0 4px 0;
+	}
+
+	#list_simplepage2 #second_img img {
+		border: 1px solid #000;
+		width: 120px;
+		height:auto;
+		margin: 0 4px 4px 0;
+	}
+
+
+	#list_simplepage2 td {
+		border-width: 0;
+	}
+
+
+
+	/* 賃貸/売買 背景色 */
+
+	#list_simplepage2 .list_price {
+	/*	background:	-moz-linear-gradient(left, #ebf6fc, #fff);
+		background:	-webkit-gradient(linear, left top, right top, from(#ebf6fc), to(#fff));	*/
+		background-color: #ebf6fc;
+		line-height: 2;
+		margin: 0px;
+		padding: 0 0 4px 1em;
+
+	}
+	#list_simplepage2 .list_price.rent {
+	/*	background:	-moz-linear-gradient(left, #fdedf0, #fff);
+		background:	-webkit-gradient(linear, left top, right top, from(#fdedf0), to(#fff));	*/
+		background-color: #fdedf0;
+	}
+
+	#list_simplepage2 .list_detail table {
+		font-size: 86%;
+	}
+
+	#list_simplepage2 .list_simple_box .list_detail #list_add th{
+		border-bottom:1px solid #EEEEEE;
+		line-height: 1.4;
+		padding: 5px;
+		white-space: nowrap;
+		text-align: left;
+	}
+
+	#list_simplepage2 .list_simple_box .list_detail #list_add td {
+		line-height: 1.4;
+		padding: 0.5em;
+		margin:0;
+		white-space: normal;
+		border-bottom:1px solid #EEEEEE;
+	}
+
+	#list_simplepage2 .list_simple_box .list_detail #list_other th{
+		border-right: 1px dotted #CCC;
+		border-bottom:1px solid #EEEEEE;
+		line-height: 1.4;
+		padding: 5px;
+		text-align: left;
+		width: 21%;
+	}
+
+	#main #content #list_simplepage2 .list_simple_box .list_detail #list_other th.th2{
+		border-left: 1px dotted #CCC;
+	}
+
+
+	#list_simplepage2 .list_simple_box .list_detail #list_other td {
+		border-bottom:1px solid #EEEEEE;
+		line-height: 1.2;
+		padding: 5px;
+		white-space: normal;
+		width: 30%;
+	}
+
+
+
+	#toiawasesaki{
+		display: block;
+		margin: 0 0 48px;
+	}
+	#contact_form{
+		display: block;
+		margin: 0 0 48px;
+	}
+
+
+	/* 担当者コメント entry-content */
+	.site-content #list_simplepage2 .entry-content{
+		margin: 0 0 48px !important;
+		padding: 14px 0 0 !important;
+		font-size: 86%;
+		max-width: 640px !important;
+	}
+
+
+	/* 表下部・現況優先但書 */
+	.list_detail_bottom_info{
+		margin: -48px -10px 48px 0;
+		padding: 0;
+		text-align: right;
+		font-size: 86%;
+	}
+
+
+
+	/* 関連物件表示(物件詳細ページ)スライダー */
+	#primary #syousai_box .carousel .carousel_inner{
+		max-width: 589px;
+		width: 97% !important;
+	}
+
+	.widget_fudo_top_slider_syousai{
+		margin: 0 0 48px !important;
+	}
+
+
+	/* 閲覧履歴 */
+	#primary .syousai_widgets ul{
+		padding: 5px;
+	}
+
+	/* map */
+	#content #map_canvas img {margin: 0;height: auto;max-width: none;width: auto;}
+	#content #map_canvas .msg {margin: 5px;font-size:12px;}
+
+	#content #map_canvas{
+		border:1px solid #979797; 
+		background-color:#e5e3df; 
+		max-width: 640px; 
+		height:340px; 
+		z-index:1;
+	/*	margin: 20px 0 ; */
+		margin: 0 0 48px;
+
+	}
+
+	/* Contact Form 7 */
+	.wpcf7 input[type="text"], 
+	.wpcf7 input[type="email"], 
+	.wpcf7 input[type="url"], 
+	.wpcf7 input[type="search"], 
+	.wpcf7 input[type="password"] {
+		width: 100%; 
+	}
+
+	/* for wp3.6 youtube */
+	#main #content .list_detail .entry-content p iframe  {
+		max-width: 630px;
+	}
+
+	/* places */
+	#main #content .list_detail .places {
+		max-width: 630px;
+		width: 100%; 
+		margin: -48px 0 58px;
+		padding: 5px 0;
+		border-left:1px solid #979797; 
+		border-right:1px solid #979797; 
+		border-bottom:1px solid #979797; 
+	}
+	#main #content .list_detail .places:after {
+		content : '';
+		display : block;
+		clear : both;
+		height:0;
+	}
+	#main #content .list_detail .places label {
+		margin: 0 5px;
+		float: left; 
+		display: block;
+		font-size: 85%;
+	}
+
+
+
+
+/* 14= 物件詳細ページ関連物件  #syousai_box : 関連物件部分
+---------------------------------------------------------------------- */
+
+	#syousai_box ul{ /zoom : 1; padding-left: 5px; }
+
+	#syousai_box ul:after{ content : ''; display : block; clear : both; height:0; }
+
+	#syousai_box ul.syousai-content li{
+		display: block;
+		width: 80px;
+
+		list-style-type: none;
+
+		font-size: 12px;
+		line-height: 1;
+		float:left;
+
+		border: 1px solid #ccc;
+
+		padding: 6px;
+		margin:0 5px 4px 0;
+
+		background: #fff;
+		background: -moz-linear-gradient(top, #ffffff 70%, #F7F7F7 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(70%,#ffffff), color-stop(100%,#F7F7F7)); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#F7F7F7',GradientType=0 );
+	}
+
+	#syousai_box ul.syousai-content li span{
+		font-size: 10px;
+		margin-top: 5px;
+	}
+
+	#syousai_box ul.syousai-content li img{ padding-bottom: 5px; }
+
+
+	#syousai_box ul.syousai-content li .box2image{
+		width:80px; 
+		height:auto;
+	}
+
+	#syousai_box .carousel_inner_fudo_top_slider_syousai_2{
+		max-width:490px; 
+	}
+
+
+
+/* 17= 物件検索 固定ページ用  .jsearch 新
+---------------------------------------------------------------------- */
+	.jsearch .entry-header,
+	.jsearch .entry-content{
+		max-width: none;
+		margin-right: 0;
+	}
+
+	.jsearch li{
+		margin: 0 1em 0 0;
+		padding: 0;
+		display: block;
+		float: left;
+		list-style-type: none;
+	}
+
+	.jsearch .eki ul,
+	.jsearch .shiku ul{
+		padding: 0 0 25px 10px;
+	}
+
+	table.form_jsearch {
+		border: 1px solid #E5E5E5;
+		border-collapse: collapse;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	table.form_jsearch th {
+		background:  #F6F6F6;
+		border-bottom: 1px solid #E5E5E5;
+		font-weight: normal;
+		padding: 10px !important;
+		text-align: left;
+		width: 18%;
+		vertical-align: top;	
+	}
+	table.form_jsearch td {
+		border-bottom: 1px solid #E5E5E5;
+		border-left: 1px solid #E5E5E5;
+		margin: 0;
+		padding: 10px !important;
+		width: 81%;
+	}
+	table.form_jsearch h5 {
+		margin: 0;
+		font-size: 100%;
+	}
+	table.form_jsearch ul {
+		margin: 0 !important;
+	}
+
+
+/* 00= Fudousan Plugin Copyright
+---------------------------------------------------------------------- */
+
+	#nendebcopy {
+		background-color: #000;
+		font-size: 12px;
+		max-width: 1240px;
+		text-align: right;
+		padding: 0 20px 0 0;
+	}
+
+	#nendebcopy a {
+		color: rgba(255, 255, 255, 0.55);
+		text-decoration: none;
+	}
+	#nendebcopy a:hover {
+		color: #fff;
+	}
+
+
+
+/*  */
+

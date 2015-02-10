@@ -1,0 +1,880 @@
+@charset "utf-8";
+
+/* = 
+ * Twenty Ten
+ * widget_fudo Style
+ * corners2010.css サイトパーツの装飾
+ * @package WordPress3.7
+ * Version: 1.1.2
+-------------------------------------------------------------- */
+
+
+
+/* = common 
+-------------------------------------------------------------- */
+
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+	margin-bottom:0;
+}
+
+/* ロールオーバー */
+a:hover img{
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
+
+
+input,
+textarea,
+select,
+.page-title span,
+.pingback a.url {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+input[type=submit] {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+pre {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+code {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+#colophon, #branding, #main, #wrapper {
+	width: 960px;
+}
+
+#wrapper {
+	background:none;
+	background: url("../img/wrap_fbg1.png") repeat-y left top;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#main{
+	margin:0;
+	padding:20px 10px 10px;
+	width: 940px;
+}
+
+#container, #content {
+	margin:0;
+	padding: 0;
+}
+
+#container{ width: 700px; } /* leftside-width */
+
+
+
+
+/* = header 
+-------------------------------------------------------------- */
+
+#header {
+	padding-top: 20px;
+	margin: 0 0 0 10px;
+}
+
+#site-title {/* サイト名の長さによってwidthを調節して下さい */
+	width: 400px;
+	margin-bottom: 10px;
+	font-size: 32px;
+	text-shadow: 0px 1px 1px #ccc;
+	padding-left: 15px;
+}
+
+#site-title a{
+	color: #333;
+	letter-spacing: -0.05em;
+}
+
+#branding img{
+	border-top: 3px solid #4A535D;
+}
+
+#site-description { /* サイト右上の説明部分の長さによってwidthやmarginを調節して下さい */
+	width: 500px;
+	text-align: right;
+	font-style: normal;
+	line-height: 1.6;
+	padding-right: 24px;
+	margin: 10px 0px 0px;
+}
+
+/* = nav 
+-------------------------------------------------------------- */
+
+#access {
+	background: #34373A; /* old browsers */
+	background: -moz-linear-gradient(top, #34373A 0%, #000000 93%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#34373A), color-stop(93%,#000000)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34373A', endColorstr='#000000',GradientType=0 ); /* ie */
+	
+	border-top: 1px solid #4A535D;
+	border-bottom: 3px solid #D9D9D9;
+}
+
+#access a{
+	min-width:70px;
+	width: auto !important;
+	width: 70px; 		/* min-width最小値 */
+	
+	text-align: center;
+	text-shadow: 1px 1px 0px #000;
+	letter-spacing: 0.1em;
+}
+
+/* = TOP only
+-------------------------------------------------------------- */
+
+#top_fbox #content ul{ 
+
+	/zoom : 1; 
+	margin-bottom: 10px; 
+}
+
+#top_fbox #content ul:after{ content : ''; display : block; clear : both; height:0; }
+
+#top_fbox #content .grid-content li{
+	display: block;
+	width: 150px;
+/*	height: 260px;	*/
+	font-size: 12px;
+	line-height: 1.4;
+	float:left;
+
+	list-style-type: none;
+	
+	outline: 1px solid #ccc;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	padding: 8px;
+	margin:0 8px 8px 0;
+}
+
+*:first-child+html #top_fbox #content .grid-content li{ border: 1px solid #CCC; margin:0 6px 6px 0; }
+
+* html #top_fbox #content .grid-content li{border: 1px solid #CCC; margin:0 6px 6px 0;} 
+
+.box1image{}
+
+#top_fbox #container #content table{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#top_fbox #container #content tr td{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.box1low {
+	line-height: 1.0;
+	margin: 0 0 -5px 0;
+	padding: 5px 0 0 0;
+	font-size:10px;
+}
+.box1low a{
+	color: #333;
+	text-decoration: none;
+}
+
+.top_title{}
+.top_price {font-weight: bold;color : #ee3300;}
+.top_madori{font-weight: bold;}
+.top_menseki{}
+.top_shozaichi{}
+.top_kotsu{}
+
+
+
+/* = TOP twitter
+-------------------------------------------------------------- */
+
+#top_fbox #content #twitter_update_list{
+	font-size: 12px;
+	padding: 10px;
+	margin: 0 0 20px 0;
+	border: 1px solid #DFDFDF;
+	border-radius: 4px;
+	clear: both;
+}
+
+#top_fbox #content #twitter_update_list a{
+	color: #666;
+	text-decoration: none;
+}
+
+#top_fbox #content #twitter_update_list li a.tw_date{
+	display: block;
+	width: 85px;
+	float: left;
+	margin: 0px;
+	padding: 4px 0px 0px 0px;
+	line-height: 1.2;
+}
+
+#top_fbox #container #content #twitter_update_list li .tw_status{
+	float: left;
+	display: block;
+	line-height: 1.2;
+	margin: 0px;
+	padding: 4px 0px 0px 0px;
+	width: 580px;
+}
+
+
+#top_fbox #container #content ul#twitter_update_list {
+	padding-left: 15px;
+}
+
+#top_fbox #container #content ul#twitter_update_list li {
+	list-style:none;
+	display: block;
+}
+
+#top_fbox #container #content ul#twitter_update_list li { /zoom:1; }
+#top_fbox #container #content ul#twitter_update_list li:after {
+   content:'';
+   display:block;
+   clear:both;
+}
+
+
+/* = textwidget
+-------------------------------------------------------------- */
+#top_fbox #container #content .textwidget{
+
+	font-size: 12px;
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius:4px;
+	margin: 0 0 20px 0;
+	line-height: 1.4;
+
+}
+
+#top_fbox #container #content .textwidget a{
+	color: #333;
+}
+
+
+/* = side-widget
+-------------------------------------------------------------- */
+
+#primary , #secondary {
+	width: 222px;
+}
+
+.widget_fudo_b_k_m select,
+.widget_fudo_b_k select{
+	width: 100%;
+	margin: 2px 0;
+	padding: 2px;
+	border: 1px solid #ccc;
+
+}
+
+#chikunen,#memseki,#hofun,#kakaku_b,#kakaku_c,#chiiki,#roseneki,#caution1,#shubetsu,#setsubi_cb{
+	margin: 0 0 10px !important;
+}
+
+
+
+#main #primary .widget-container ,#main #secondary .widget-container{
+	margin: 0 0 8px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	
+	width: 210px;
+	background: #FFF;
+}
+
+#primary .widget-container h3 , #secondary .widget-container h3{
+	color: #666;
+	display: block;
+	padding: 6px 6px 6px 10px;
+	margin: 0 0 10px 0;
+	font-size:16px;
+		
+	border-radius: 4px;
+		
+	background: #f9f9f9; /* old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* ie */
+}
+
+#primary .widget-container li ,#secondary .widget-container li{
+	list-style-type: circle;
+	/*	border-bottom: 1px dotted #CCC;*/
+	margin-bottom: 4px;
+}
+
+#primary .widget-container li ul li,#secondary .widget-container li ul li{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main #primary ul li ul , #main #secondary ul li ul{
+	/*margin: 0;*/
+	padding: 0px 4px;
+}
+
+#main .widget-area ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main .widget-area a:link {
+	color:#666;
+}
+
+#main .widget-area a:visited {
+	color:#333;
+}
+
+#main .widget-area a:hover,a:active {
+	color:#3399ff;
+}
+
+
+*:first-child+html .widget_search #s {
+    width: 54%;
+}
+
+
+/* 会員  */
+
+#primary .widget_fudo_kaiin input[type="text"],
+#primary .widget_fudo_kaiin input[type="password"]{
+	width: 110px;
+}
+#primary .widget_fudo_kaiin { line-height: 1.8; }
+
+#primary .widget_fudo_kaiin form {
+	margin: 0px 0px 1em;
+	padding: 0 ;
+}
+
+#primary .widget_fudo_kaiin div{
+	padding: 0 5px;
+}
+
+
+/* = footer
+-------------------------------------------------------------- */
+
+#footer {
+	border-top: 3px solid #ccc;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+
+#colophon {
+	padding: 10px;
+	width: 940px;
+}
+
+#footer #site-info a{
+	font-size: 20px;
+	text-shadow: 0px 1px 1px #ccc;
+	font-weight: bold;
+}
+
+#footer #site-info{
+	padding-top: 20px;
+	width: 650px;
+}
+
+#footer #site-generator{ padding-top: 20px; }
+
+
+/* = footer widget
+-------------------------------------------------------------- */
+
+#footer-widget-area{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCC;
+	font-size: 12px;
+}
+#footer-widget-area a{ color: #666; }
+
+
+#footer-widget-area h3{
+	color: #666;
+	padding: 0;
+	margin: 0 0 3px;
+	border-bottom: 1px solid #DDD;
+	font-size: 13px;
+}
+
+/*
+#footer-widget-area .widget-container li{
+	list-style-type: none;
+	margin: 4px;
+	line-height: 1.5;
+}
+*/
+
+#footer-widget-area .widget-container li{
+	list-style-type: none;
+	margin: 0;
+	line-height: 1.5;
+}
+
+
+#footer-widget-area .widget-container ul{ margin: 0 0 0 4px; }
+
+
+
+#footer-widget-area li.widget-container ul li a {
+	color: #3E3E3E;
+	line-height: 1.6;
+}
+
+#footer-widget-area li.widget-container ul li ul a {
+	border-bottom: none;
+	color: #828282;
+	line-height: 1.2;
+}
+
+
+/* = 見出し
+-------------------------------------------------------------- */
+#main #container #content h1{
+/*
+	border-bottom: 1px dotted #CCC;
+	font-size: 16px;
+	padding-left: 10px;
+	border-left: 2px solid #666;
+	color: #666;
+*/
+	border-bottom: 1px dotted #CCC;
+	/*font-size: 24px;*/
+	border-left: 3px solid #666;
+	margin: 0px 0px 15px;
+	padding: 0px 0px 0px 10px;
+}
+#main #container #content h3{
+	border-bottom: 1px dotted #CCC;
+	/*font-size: 24px;*/
+	border-left: 3px solid #666;
+	margin: 0px 0px 15px;
+	padding: 0px 0px 0px 10px;
+	text-shadow:1px 1px 0px #ccc;
+}
+
+#comments h3#comments-title{
+/*	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 20px;
+*/
+}
+
+
+
+/* コメント欄 */
+
+#comments {
+	padding-top: 60px;
+	font-size: 12px;
+}
+
+#comments-title em{ font-style: normal; }
+
+#comments li.comment{ line-height: 1.2; }
+
+#comments .comment-meta{ font-size: 10px; }
+
+
+
+#respond{ border-top-style: none; }
+
+#main #comments #respond h3#reply-title{
+/*	font-size: 14px;
+	font-weight: normal;
+	color: #666;
+	border-top: 0px none #FFF;
+	border-right: 0px none #FFF;
+	border-bottom: 0px none #FFF;
+	border-left: 2px solid #CCC;
+*/
+}
+
+
+
+#cancel-comment-reply-link{ margin-left: 2em; }
+
+
+
+
+
+/* = Contact Form 7 checkbox hook
+-------------------------------------------------------------- */
+
+#list_simplepage2 .wpcf7-list-item label { display: block; float:left; margin-left:1em;}
+
+#list_simplepage2 form p { /zoom:1; }
+#list_simplepage2 form p:after {
+   content:'';
+   display:block;
+   clear:both;
+}
+
+
+/* = 印刷用CSS Twenty Ten +α
+-------------------------------------------------------------- */
+
+@media print {
+
+	* {	font-family:  "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;}
+
+	body, #wrapper,
+	#list_simplepage2,
+	.list_simple_box  {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	head+body {
+		max-width: 100% !important;
+		min-width: 80% !important;
+		margin: 0 auto !important;
+	}
+
+	#site-title a {float: left !important; 	font-size: 14pt !important;}
+	
+	#site-description {float: right !important; }
+	
+	#container, .list_simple_box{	width: 100% !important;}
+
+	h1, h2, h3, #header{
+		font-size: 13pt !important;
+		font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+		border: none;
+	}
+
+	/* フォーム部分 */
+	#list_simplepage2 .wpcf7{	display: none !important;}
+
+	/* 地図 */
+	#map_canvas{width: 514px !important; height: 340px !important;}
+
+}
+
+
+
+
+
+/* = TOP fudo_toukou_top-XX
+-------------------------------------------------------------- */
+#top_fbox #content ul#toukou_top{
+	font-size: 12px;
+	padding: 10px;
+	margin: 0 0 20px;
+	border: 1px solid #DFDFDF;
+	border-radius: 4px;
+	clear: both;
+}
+#top_fbox #content ul.toukou_top_post_excerpt{
+	font-size: 12px;
+	padding: 5px 0 0 10px;
+	margin: 0px;
+}
+#top_fbox #content #toukou_top a{
+	color: #333;
+}
+#top_fbox #content .toukou_top_post_title{
+	line-height: 1.6;
+	font-size: 14px;
+	font-weight:bold;
+	color: #333;
+}
+#top_fbox #content #toukou_top li {
+	line-height: 1.4;
+	list-style:none;
+	display: block;
+}
+/*
+#top_fbox #content #toukou_top .tokou_top_post_thumbnail {
+	padding: 0 10px 0 0;
+	float:left;
+}
+*/
+#top_fbox #content #toukou_top img {
+	float:left;
+	padding: 0 5px 0 0;
+	width:75px;
+/*	height:75px; */
+}
+
+
+
+/* = primary and secondary fudo_toukou_top-XX
+-------------------------------------------------------------- */
+#primary ul#toukou_top,
+#secondary ul#toukou_top{
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+}
+#primary ul.toukou_top_post_excerpt,
+#secondary ul.toukou_top_post_excerpt{
+	font-size: 10px;
+	padding: 5px 0 0 10px;
+	margin: 0 !important ;
+}
+#primary #toukou_top a,
+#secondary #toukou_top a{
+	color: #333;
+}
+#primary .toukou_top_post_title,
+#secondary .toukou_top_post_title{
+	line-height: 1.4;
+	font-size: 14px;
+	font-weight:bold;
+	color: #333;
+}
+#primary #toukou_top li,
+#secondary #toukou_top li {
+	line-height: 1.4;
+	list-style:none;
+	display: block;
+}
+/*
+#primary #toukou_top .tokou_top_post_thumbnail ,
+#secondary #toukou_top .tokou_top_post_thumbnail {
+	float:left;
+	padding: 0 5px 0 0;
+}
+*/
+#primary #toukou_top img ,
+#secondary #toukou_top img {
+	float:left;
+	padding: 0 5px 0 0;
+	width:75px;
+	height:75px;
+}
+
+
+
+/* = toukou
+-------------------------------------------------------------- */
+.entry-content{
+	font-size: 12px;
+	padding: 10px;
+	margin: 0px;
+	line-height: 1.4;
+}
+
+.entry-content a{
+	color: #333;
+}
+
+
+.entry-meta{
+	text-align: right;
+	font-size: 10px;
+}
+
+/* = 物件リストソート部
+-------------------------------------------------------------- */
+.nav-previous{
+	font-size: 12px;
+	padding: 10px 0px 10px 5px;
+}
+
+/* =  ページリスト
+-------------------------------------------------------------- */
+.nav-next{
+	width: 48%;
+	font-size: 12px;
+	padding: 10px 0 10px 5px;
+}
+
+.nav-next a{
+	padding: 5px;
+	border: 1px solid #CCC;
+}
+
+
+/* = NEW/UP mark
+-------------------------------------------------------------- */
+/* 物件リスト・詳細 */
+.entry-title .new_mark {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #C00;
+	display: inline;
+	padding: 0px 10px;
+	border-radius: 4px;
+	text-shadow:1px 1px 0px #fff;
+	height: 20px;
+	vertical-align: middle;
+}
+
+/* トップ */
+#top_fbox #content .grid-content li{
+	position: relative;
+}
+
+#top_fbox #content .grid-content .box1 img{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#top_fbox .new_mark {
+	font-family: Verdana, Geneva, sans-serif;
+
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFF;
+	
+	display: block;
+	padding: 2px 5px;
+	width: 26px;
+
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	
+	border-radius: 4px;
+
+	text-shadow:1px 1px 0px #900;
+
+	background: #900; /* Old browsers */
+	background: -moz-linear-gradient(top, #d20100 0%, #990000 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top, #d20100 0%,#990000 100%); /* Chrome10+,Safari5.1+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d20100', endColorstr='#990000',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #d20100 0%,#990000 100%); /* W3C */
+}
+
+
+/* 関連物件 */
+#syousai_box ul.syousai-content li {
+	position: relative;
+}
+
+#syousai_box .new_mark {
+	font-family: Verdana, Geneva, sans-serif;
+
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFF;
+	
+	display: block;
+	padding: 2px 5px;
+	width: 26px;
+
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	
+	border-radius: 4px;
+
+	text-shadow:1px 1px 0px #900;
+
+	background: #900; /* Old browsers */
+	background: -moz-linear-gradient(top, #d20100 0%, #990000 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top, #d20100 0%,#990000 100%); /* Chrome10+,Safari5.1+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d20100', endColorstr='#990000',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #d20100 0%,#990000 100%); /* W3C */
+}
+
+
+.page-template-showcase-php .new_mark, footer .new_mark, #footer .new_mark, #tertiary .new_mark, #primary .new_mark, #secondary .new_mark{
+	width: auto;
+}
+
+
+
+/* = Fudousan Plugin Copyright
+-------------------------------------------------------------- */
+
+#nendebcopy{width: 960px;margin: 5px auto;padding: 0 0 5px;font-size: 10px;color: #999;text-decoration: none;font-family: Arial,Helvetica;text-align:right;}
+#nendebcopy a{font-size: 10px;color: #999;text-decoration: none;font-family: Arial,Helvetica;float: right;}
+
+#nendebcopy{
+ background: url("../img/wrap_fbg2.png") no-repeat left top;
+ margin: 0px auto;
+ padding: 10px 10px 0px 10px;
+ overflow: hidden;
+ zoom: 1;
+}
+
+
+/* 条件検索(固定ページ) */
+
+#container .jsearch .setsubi,
+#container .jsearch .menseki,
+#container .jsearch .madori,
+#container .jsearch .kakaku,
+#container .jsearch .chikunen,
+#container .jsearch .shiku,
+#container .jsearch .eki,
+#container .jsearch .shubetsu{
+	padding:0 0 0 10px;
+}
+
+
+
+/*  = 問合せフォーム table
+---------------------------------------------------------------------- */
+
+	table.form_set {
+		border: 1px solid #E5E5E5;
+		border-collapse: collapse;
+		font-size: 87.6%;
+		line-height: 18px;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	table.form_set tr {
+		border: 0 none currentcolor;
+		font: inherit;
+		margin: 0;
+		padding: 0;
+	}
+	table.form_set th {
+		background:  #F6F6F6;
+		border-bottom: 1px solid #E5E5E5;
+		font-weight: bold;
+		padding: 10px !important;
+		text-align: left;
+		width: 18%;
+		vertical-align: top;	
+	}
+	table.form_set td {
+		border-bottom: 1px solid #E5E5E5;
+		border-left: 1px solid #E5E5E5;
+		margin: 0;
+		padding: 10px !important;
+		width: 81%;
+	}
+
+	table.form_set h5 {
+		margin: 10px 0 10px !important;
+	}
+	table.form_set ul {
+		margin: 0 !important;
+	}
+
+/*  */
